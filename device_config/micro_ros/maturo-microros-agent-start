@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+DEV="${MICROROS_SERIAL_DEV:-/dev/ttyAML0}"
+BAUD="${MICROROS_SERIAL_BAUD:-921600}"
+
+source /opt/ros/humble/setup.bash
+if [ -f /root/chuyun_ws/install/setup.bash ]; then
+    source /root/chuyun_ws/install/setup.bash
+fi
+
+for _ in $(seq 1 20); do
+    [ -e "$DEV" ] && break
+    sleep 1
+done
+
+if [ ! -e "$DEV" ]; then
+    echo "serial device not found: $DEV" >&2
+    exit 1
+fi
+
+stty -F "$DEV" "$BAUD" cs8 -cstopb -parenb -ixon -ixoff -crtscts raw -echo || true
+
+echo "starting micro-ROS UART heartbeat watchdog" >&2
+/usr/local/sbin/maturo-microros-uart-starter.py &
+starter_pid=$!
+
+cleanup() {
+    kill "$starter_pid" 2>/dev/null || true
+}
+trap cleanup EXIT INT TERM
+
+echo "starting micro-ROS agent on $DEV" >&2
+ros2 run micro_ros_agent micro_ros_agent serial --dev "$DEV" -b "$BAUD" &
+agent_pid=$!
+wait "$agent_pid"

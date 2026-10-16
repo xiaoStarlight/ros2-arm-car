@@ -1,0 +1,16 @@
+menu "Leap low settings"
+
+    config MICRO_ROS_LOCAL_PORT
+        string "micro-ROS local UDP port"
+        default "8888"
+
+    config MICRO_ROS_UART_BAUDRATE
+        int "micro-ROS UART baud rate"
+        range 9600 2000000
+        default 921600
+        help
+            Baud rate for the UART2 link to the Linux micro-ROS Agent.
+            Both ends must use the same value. This is separate from the
+            UART0 debug console baud rate (230400).
+
+endmenu

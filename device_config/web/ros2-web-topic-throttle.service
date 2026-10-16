@@ -1,0 +1,14 @@
+[Unit]
+Description=ROS 2 web topic rate limiters
+After=network.target xuegecar-bringup.service
+Wants=xuegecar-bringup.service
+
+[Service]
+Type=simple
+Environment=HOME=/root
+ExecStart=/root/ros2_web/ros2-web-topic-throttle.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

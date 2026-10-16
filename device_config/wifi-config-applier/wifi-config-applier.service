@@ -1,0 +1,15 @@
+[Unit]
+Description=Apply Wi-Fi config from micro-ROS /wifi_config and publish /host_info
+After=network.target NetworkManager.service micro-ros-agent.service
+Wants=micro-ros-agent.service
+
+[Service]
+Type=simple
+User=root
+Environment=ROS_DOMAIN_ID=0
+ExecStart=/bin/bash -lc 'source /opt/ros/humble/setup.bash && source /root/chuyun_ws/install/setup.bash && exec ros2 run xuegecar_wifi_config wifi_config_applier'
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

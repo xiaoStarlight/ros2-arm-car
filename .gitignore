@@ -1,0 +1,42 @@
+# Dependencies and generated builds
+**/node_modules/
+**/build/
+**/install/
+**/log/
+**/dist/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+*.pyc
+*.log
+*.pid
+
+# Local credentials and deployment-only data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+**/.ssh/
+**/secrets/
+
+# Firmware binaries, recording data, and historical archive outputs
+*.bin
+*.elf
+*.map
+*.a
+*.o
+*.obj
+*.db3
+*.mcap
+*.bag
+*.zip
+*.tar.gz
+*.bak
+**/.servo-*-backup-*/
+**/.follow-*-backup-*/
+**/.color-*-backup-*/
+.DS_Store
+Thumbs.db

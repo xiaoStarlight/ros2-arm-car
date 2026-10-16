@@ -1,0 +1,81 @@
+{
+    "tasks": {
+        "startup": [
+            {
+                "id": "foxglove",
+                "description": "Foxglove 数据桥接 (低负载模式)",
+                "command": "ros2",
+                "args": [
+                    "run",
+                    "foxglove_bridge",
+                    "foxglove_bridge",
+                    "--ros-args",
+                    "--params-file",
+                    "/root/ros2_web/foxglove_bridge.params.yaml"
+                ],
+                "delay": 0
+            }
+        ],
+        "mapping": [
+            {
+                "id": "mapCartographer",
+                "description": "Cartographer 建图算法",
+                "command": "ros2",
+                "args": [
+                    "launch",
+                    "slam_gmapping",
+                    "slam_gmapping.launch.py"
+                ],
+                "delay": 0
+            }
+        ],
+        "navigation": [
+            {
+                "id": "nav2",
+                "description": "轻量定位导航 (激光匹配 + A* + 全向路径跟踪)",
+                "command": "ros2",
+                "args": [
+                    "launch",
+                    "xuegecar_navigation2",
+                    "lite_navigation.launch.py"
+                ],
+                "delay": 0
+            }
+        ]
+    },
+    "save_map": {
+        "command": "ros2",
+        "args": [
+            "run",
+            "nav2_map_server",
+            "map_saver_cli",
+            "-f"
+        ],
+        "description": "保存地图（-f 后追加地图名和路径）",
+        "save_dir": "/root/chuyun_ws/src/xuegecar_navigation2/maps"
+    },
+    "maps_dir": "/root/chuyun_ws/src/xuegecar_navigation2/maps",
+    "camera": {
+        "stream_url": "http://192.168.31.194:8081/",
+        "mediamtx_api_url": "http://127.0.0.1:9997",
+        "webrtc_port": 8889,
+        "preferred_webrtc_path": "cam0"
+    },
+    "services": {
+        "set_arm_pose": "/set_arm_pose"
+    },
+    "topics": {
+        "cmd_vel": "/cmd_vel",
+        "servo_cmd": "/servo_cmd",
+        "map": "/map",
+        "costmap": "/global_costmap/costmap",
+        "scan": "/scan",
+        "tf": "/web/tf",
+        "odom": "/web/odometry/filtered",
+        "plan": "/plan",
+        "goal_pose": "/goal_pose",
+        "initial_pose": "/initialpose",
+        "navigate_feedback": "/lite_navigation/feedback",
+        "cancel_navigation": "/lite_navigation/cancel"
+    }
+}

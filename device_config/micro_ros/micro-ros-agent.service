@@ -1,0 +1,16 @@
+[Unit]
+Description=micro-ROS Agent on ttyAML0
+After=network.target dev-ttyAML0.device
+Wants=dev-ttyAML0.device
+Conflicts=serial-getty@ttyAML0.service
+
+[Service]
+Type=simple
+User=root
+Environment=ROS_DOMAIN_ID=0
+ExecStart=/usr/local/sbin/maturo-microros-agent-start
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

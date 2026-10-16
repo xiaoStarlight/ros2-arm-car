@@ -1,0 +1,15 @@
+# Example only: replace host placeholders and check the installed MediaMTX version.
+# Do not overwrite a working robot configuration with this template.
+logLevel: info
+api: true
+apiAddress: 127.0.0.1:9997
+rtsp: true
+rtspAddress: :8554
+webrtc: true
+webrtcAddress: :8889
+webrtcAdditionalHosts:
+  - MAIN_CONTROLLER_LAN_IP
+paths:
+  cam0:
+    source: rtsp://CAMERA_HOST/live/0
+    sourceOnDemand: true

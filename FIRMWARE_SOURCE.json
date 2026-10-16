@@ -1,0 +1,1416 @@
+{
+  "upstream": "https://github.com/czu963889306-dev/leap_ros_pro_mcu_driver.git",
+  "reference_commit": "d2690b35fc0dff95fa65f48dd2820bc2d29cc4c8",
+  "source": "local working tree snapshot; Git metadata and binaries excluded; text normalized to LF",
+  "working_tree_changes": [
+    "M doc/protocols.md",
+    " M main/CMakeLists.txt",
+    " M main/Kconfig.projbuild",
+    " M main/config/network_config.h",
+    " M main/tasks/io/peripheral_task.cpp",
+    " M main/tasks/network/provision/provision_portal.cpp",
+    " M main/tasks/network/provision/provision_portal_page.h",
+    " M sdkconfig",
+    " M sdkconfig.defaults",
+    "?? doc/LINUX_BUILD_HANDOFF.md",
+    "?? version.txt"
+  ],
+  "files": [
+    {
+      "path": "leap_ros_four_mcu_driver/.gitignore",
+      "sha256": "f687019d6dd5dbc0e1ef0fe8cbec79be32e43947f3e14c58a0fceea14cc4d506"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/app-colcon.meta",
+      "sha256": "464ef3184b9ca7bb6ada76679dbb8ca2b9420b448ddc4205e3a0f70673177644"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/CMakeLists.txt",
+      "sha256": "f619866676faa7280b8dcc9cd7bd273108cefdd7eb298a4ab334aa03ac11dadb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/button_driver/button_driver.cpp",
+      "sha256": "ef442e5332c6821ccd52dce9677aded2576d40cb12cba1ceb3cbcd2e66746957"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/button_driver/button_driver.h",
+      "sha256": "af228d8764f399a909a67b82d4520351d0c9dd22cb5547181204394c42bcfcf7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/button_driver/CMakeLists.txt",
+      "sha256": "9e300c4c6f1e4816ed52527eef0bc838c7ec5fad5215528c1f237293327dcdb0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camera_i2c_client/camera_i2c_client.cpp",
+      "sha256": "56aed5122d4d912797082facdecae9b78ca55a285bd805ec96c7eb2b410f39f0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camera_i2c_client/camera_i2c_client.h",
+      "sha256": "f6d2c35fcad0770ee5c41f032ce0d89f843095ae9fce2e2168568725d3f21875"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camera_i2c_client/CMakeLists.txt",
+      "sha256": "fb5c084c7815096cbc3e4a59b78993ce43f8ad36126aea1087c2a09f50c8845d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camsense_lidar/camsense_lidar.cpp",
+      "sha256": "e2b5d32d39df1a2d58328822478647194c7a9a47a1ce384ba67b19e66197a05d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camsense_lidar/camsense_lidar.h",
+      "sha256": "917662c4b2e0af6352c20a54a50ce5efddaa1b90c341978d8cea11cd3de65fef"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/camsense_lidar/CMakeLists.txt",
+      "sha256": "d2497226a1351ef543b143bc9280fab06a03c92febf0cbf0557c1773e8ef813c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/encoder_driver/CMakeLists.txt",
+      "sha256": "9b05bbf357de275beddf3195ea6e18d416b3f63647eebfac457274256e952890"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/encoder_driver/encoder_driver.cpp",
+      "sha256": "7ea107606d968d0a126de228fd222ce61c5a920d01a8f36c273a2c14200a781e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/encoder_driver/encoder_driver.h",
+      "sha256": "d839404bc55520473682d47fdefa67dc604cc2331a8289a054d9f58b39aa9349"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/i2c_bus_lock/CMakeLists.txt",
+      "sha256": "e6ec41c3b821ac62771ee5f5607cf378ff5954b994217a5772a96ac39a4bc570"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/i2c_bus_lock/i2c_bus_lock.c",
+      "sha256": "b4d3d1bedc3fe357e469d25f6b324ddb43b61df61a9828d30a243881c7cbc5dc"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/i2c_bus_lock/i2c_bus_lock.h",
+      "sha256": "680206c5d46eaffbe96abc58bf3f3b97c30f292ce84080d5e866cbf05236cba1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ldstl26_lidar/CMakeLists.txt",
+      "sha256": "2f4c9193f7d26171aeb3b6321bbf4456b7dd39a67040b070bec0e58d48c02b7f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ldstl26_lidar/ldstl26_lidar.cpp",
+      "sha256": "5b59eea4f7f509ccc73f3cfb0879e6ff85c537efabb8ceb263f5c9554b241791"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ldstl26_lidar/ldstl26_lidar.h",
+      "sha256": "3997e728495e01e5ddc335fb4530cb126728559d1d833cec83682bb352b1cc2c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/lsm6ds3_driver/CMakeLists.txt",
+      "sha256": "44428ff668487d13586ef3cec0f198cee44c254dd920cd2c56069f581a40720f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/lsm6ds3_driver/lsm6ds3_driver.cpp",
+      "sha256": "16f65f18e0aa9b34d8697b785d7100b255821b47872c4fdd9faf84698b089348"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/lsm6ds3_driver/lsm6ds3_driver.h",
+      "sha256": "8aa138e488165321300523233f7bd1e355d895300265c5a83c4084d2027f2b26"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/motor_driver/CMakeLists.txt",
+      "sha256": "1ffcda46061f08f998fb020baf1ee81b8c2d0dd3e6b29cc208920bc634cd61a9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/motor_driver/motor_driver.cpp",
+      "sha256": "ab960abb4e885d9532cd977c7ff969249ae351a1969ff994ad9e0a6fce7fb3c2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/motor_driver/motor_driver.h",
+      "sha256": "8f13d0114df5d01ea7a12e1784de19cca985dd0c8294d78ff72e3b1c08c3be56"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/pid_controller/CMakeLists.txt",
+      "sha256": "988426da620a26244342c1adb962b77c32abe853923faa6977c749cdf4026984"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/pid_controller/pid_controller.cpp",
+      "sha256": "2a90d6af0b3b16b36a7a17e371774b4a395e85555b04ce974c6f20cfcd9e3d75"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/pid_controller/pid_controller.h",
+      "sha256": "ec3d6cb4f32cea53b3bb2b30bdb2c7684e0362aae79f0eff5c5cd0d80caa14d8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/servo_driver/CMakeLists.txt",
+      "sha256": "3858e5f5379edcd1e1d852ff0ab1fec1d8a11d19cf867bcefba4a6af2a8557a0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/servo_driver/servo_driver.cpp",
+      "sha256": "d9e7ad21597de4d692e6762b7622d99b153b3b886117946855f7fd57a3f4697a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/servo_driver/servo_driver.h",
+      "sha256": "ede916e093f9362d3ef107ab0470b8e88bcac25b4b7af9fdbf88b8380b02f851"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/status_led/CMakeLists.txt",
+      "sha256": "195bc1bbdb26ae52d4255f508c1eba059d5c9a53b49a046f58555c62af3a73a7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/status_led/status_led.cpp",
+      "sha256": "04a35907b6072ad095f4cb8611761de2ee7d625bfc37b01e45f1448f8e97cc01"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/status_led/status_led.h",
+      "sha256": "a97fe26225f18bfa5d50195ee15a9ea95e22b3bc57f34d8713d898ef66bc9f17"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ultrasonic_sensor/CMakeLists.txt",
+      "sha256": "ee7b9e88ff92416847c1c3e5f792b1af2c635a0e9c45e53db2267263dc405051"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ultrasonic_sensor/ultrasonic_sensor.cpp",
+      "sha256": "c9cf21a68d5cfb549e65c6bb487cd4bd08226d8d7028bd8feb488ef2aa81b595"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ultrasonic_sensor/ultrasonic_sensor.h",
+      "sha256": "0fe2da49520ff4c5a04455baeb6f520cb974a135b40918bdbb8ee81c00d50863"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ws2812_driver/CMakeLists.txt",
+      "sha256": "ce15aef8f7b794af29677f4220a9e3cdc7f091f5ffb6bc50eba1f9299131b92c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ws2812_driver/ws2812_driver.cpp",
+      "sha256": "6032516c73150cf1a94f1ae7ad41d0915aab6b8ffd57cf2a15db6d3bf2da7093"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/components/ws2812_driver/ws2812_driver.h",
+      "sha256": "07aa6411074194cf895762f734d381b4528bec366c04bf583ad7f8a12895d4dc"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/dependencies.lock",
+      "sha256": "176cdb3e4c8756513000f076b6077c40de912cf8367c83ccefc6494f1a4141a2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/doc/ld-stl-14.pdf",
+      "sha256": "7b4910926f538fa24b0ad85c47a92f593d10972c33beeb4ac28610538509c293"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/doc/ld14_serial_test.py",
+      "sha256": "577a42b0aca8ce762b8b2fd5da264daaf3e08e15602dd228cda462d01a4d6353"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/doc/ld14_web_viewer.py",
+      "sha256": "cb94f4275180bf3900d9a35dd17efec184bf02d70971105f038b74fe354aec11"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/doc/LINUX_BUILD_HANDOFF.md",
+      "sha256": "a84e88ff9b947acba64db00c512cb2bd42692cdfc83c40a0604e6990d37e4301"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/doc/protocols.md",
+      "sha256": "1af3559aef5f49ed288672d6ab22b9cc375972966570547b29509ccac8f30d63"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/extra_ros_packages/leap_interfaces/CMakeLists.txt",
+      "sha256": "ab6249fafb98de07760856b80d642755d533b40c520616777b42626fe9e8e60e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/extra_ros_packages/leap_interfaces/package.xml",
+      "sha256": "8edd6b62cf71ba87d87dc7ebfe361452c3dbb0c886b061f8f13c235a545aaf7c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/extra_ros_packages/leap_interfaces/srv/GetSpeedPid.srv",
+      "sha256": "78c417774a2d1c6079e5473402af41926a8c921f5e8c2cee962af4d0ad31a74b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/extra_ros_packages/leap_interfaces/srv/SetArmPose.srv",
+      "sha256": "eb6f381dc3af35b9f0c175b08b11b06c9066acb46fc8e1b330e2b27918e01840"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/extra_ros_packages/leap_interfaces/srv/SetSpeedPid.srv",
+      "sha256": "a04c2d1fc68f26e465d9226fa7f4c114f6bb669f4d8dbe92fd3c4cf5fa97c36b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/app_main.cpp",
+      "sha256": "c553110e254cc09bdd2856c2f5b9775bf08cb599f384aae2a96479d6a43c5e07"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/app_runtime.cpp",
+      "sha256": "89c44d86403696e9f7625dc09ddc482b76350a22bc03048f181804cec683de25"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/app_runtime.h",
+      "sha256": "ee2fb9114fa21e2a2eab7140618f088c441f7ef72167c8274940228d7cc2db78"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/CMakeLists.txt",
+      "sha256": "771ee6a4983953e0c7c708491c23f01c4a4777d324d3d421c4a29f4b84ee3031"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/arm_config.h",
+      "sha256": "a56e4568d0a2f192ef515ef3ea0edc59c784ca1a9280051d3b06e29f36da1456"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/board_config.h",
+      "sha256": "0a9bf36082ed60755f8c84366f14da0a8b0e1e5b57f9e0743c60b533eb8914d6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/motion_config.h",
+      "sha256": "9999a5064a701bafc42333612ef8fd05f7d62a7109db37de0c52a06fd5c3a521"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/network_config.h",
+      "sha256": "f24794b78552f4bf15aadf7eb109f5a5ecc1c79269218b5c3bfeb93b5757627b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/pid_config.cpp",
+      "sha256": "3dc449be2eb1f1fdbdf63bfcd3aa58160ee1e9c747708e399a6064b1c4690eb6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/pid_config.h",
+      "sha256": "bcda122319de2259849c34cc4efb1333959f899bebfdfef6d29f2cdb6061211e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/config/ros_config.h",
+      "sha256": "cce3b407b47adccd3e5796ee0aaa50eddd3202aa9871c2d0d952f7dacc5d8a3c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/arm_kinematics.cpp",
+      "sha256": "e07ca1c60bdf267269a5404fac2f56319f158d491f6e693b583c9eb83f50037e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/arm_kinematics.h",
+      "sha256": "8af98ee7400f8d13614233c94e2c7b9d86dde461710b14a26b0f3bfa6232cb44"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/differential_kinematics.cpp",
+      "sha256": "a25266f552108564c0f68fbc3f16a713be8d7137b1989f6f8567dc9664efa2c9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/differential_kinematics.h",
+      "sha256": "7a4de6abf175284746be7cad277e8c128a5f123b843baa506542647c651adb20"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/mecanum_kinematics.cpp",
+      "sha256": "9c0d6157d4da3e7fe60165016823c3eb2bc014335de5072a1edaeb6f12a0fbab"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/mecanum_kinematics.h",
+      "sha256": "51e500f2644c6af6fd58abff14ebea75d459e2328bbabf051c848915cbdefaec"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/motion_controller.cpp",
+      "sha256": "d073d7e05cf0e2a36cb46127de4ae2dd0fa33c701dee326371d049edbcf193e4"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/motion_controller.h",
+      "sha256": "234463ed69872b2504fa1c01da5474539d92c06c6715b8b9315b25e25cee4769"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/control/motion_kinematics.h",
+      "sha256": "0fb6fa533398d8bf800e266109bc374fb74d28091538ef4a4017b8d1a2739807"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/core/system_globals.cpp",
+      "sha256": "4cea1b05702fec05039c0cb0ecc0a4b2bf7fd9e6d01722df39ca51fdd6409ddb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/core/system_globals.h",
+      "sha256": "a304121bfbe981250912fe5bc3a7c4a2d582d4cc756013b5c936dfd69a31dcba"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/idf_component.yml",
+      "sha256": "9533f2d895e22c5526e5a437ea8f8bb3da4ac309095d5857f9bff4f31450dc18"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/Kconfig.projbuild",
+      "sha256": "812f3a37d045cd740e366dd7fa5b057aad74f3d0ebc885242f243231910151b1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/arm_msg.h",
+      "sha256": "1e30b30df00956f97847fa7d9585a2047e0ddf56e469ad7f31da9847fc00cdc9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/gamepad_msg.h",
+      "sha256": "2886cd590be756a0ccb312dd0ff956cfdd8389f837a71fedf1028fce64df1c23"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/imu_msg.h",
+      "sha256": "ebb1e43e06ed674c0b69c5175fdfb5ff90135143e1a863e85588a577d0a8780b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/lidar_msg.h",
+      "sha256": "5b923541e8794a063623e353845d07caa3b3dba39837fc054e0b3934ed5a97d8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/motion_msg.h",
+      "sha256": "72f1acaf75f7a0700ac96e5c516f100231d5c0a288ddc1f76e48beb101cbfd69"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/pid_msg.h",
+      "sha256": "5988142edc1b9f2e1f8e6f96a603c3a316a4679a5a03305f329ef260cc82041d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/rgb_msg.h",
+      "sha256": "794fec7e0b1877ff4aab3aa29c01bf1f7a722de70a794a3e7e2cc016c860ea65"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/servo_msg.h",
+      "sha256": "540a3e260e7ce986347c755bca15fe1d1b2aa6ea37838c058b6d5b45a746e2f6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/temperature_msg.h",
+      "sha256": "c5b53811cef908c023c419f6a32cbdecbc97de916209f4905e8330ba0aafba43"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/udp_packet.h",
+      "sha256": "a67e95d2f705daff9ca5c777c25422934d78f74f86aa7249945357b124d29153"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/msg/ultrasonic_msg.h",
+      "sha256": "ea1dfcc6fcfaac375571e3df89b371cecdd87b48c01edad6935775f7f562bde6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/network/wifi_app.cpp",
+      "sha256": "df310245e1ade8c09dd6e139b92c2f284f41a42c46f7034b3255017c7f883da3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/network/wifi_app.h",
+      "sha256": "4d1630ed11df1e2ffbffee623a5011217a8cfaaa94edca45bb21921102c0dc14"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/platform/board.cpp",
+      "sha256": "ee7a72ed2905f55edb814f4537fafdf19eaacb2b2bcad4aed83814912c7bbd87"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/platform/board.h",
+      "sha256": "1ce2afedd86dcdead4e07f71d73912a8e1de10fd25b21df66cc64936439a0b77"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/control/arm_task.cpp",
+      "sha256": "b818071dacd3933e9d1561b02115c84d6235d005ca7e8afc122544e6ae3fbca0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/control/motion_task.cpp",
+      "sha256": "229f523b517f123317bd696fc7538405df372b7ae5adb8034458dd6dd002d0c4"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/io/gamepad_i2c_task.cpp",
+      "sha256": "af303d4fbf48e5c6737c257d70bfd5d7f3ff19874bddab1f288ab6a61ebeb478"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/io/peripheral_task.cpp",
+      "sha256": "1b9df699399de1fe022ba87c0c433cb127a335866f3b79e14838c0ba9d9ac2df"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/espnow_task.cpp",
+      "sha256": "dd390fd485fce039f75b0f48cbee06cff642503982ac9facad9e22b5b39ba6af"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_internal.h",
+      "sha256": "961e6c52d006bc8d64601ab921e1fafccb33dad39afe674a888b953fd9628d93"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_publishers.cpp",
+      "sha256": "8ee7195dcbd213ccf14d7fc96e40e57c3af5a2c30316c9953d6760454b00b559"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_runtime.cpp",
+      "sha256": "da3529d311ab802e33cda4dedc0a158daf07e387c559488febdf2efb1d72c90c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_runtime.h",
+      "sha256": "641d21c09fd01c7dc65449e41bc84ea1b5f383097b1d09b877b859321d07082d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_services.cpp",
+      "sha256": "075acc640038f938a659d0c1c747a20e3130f336b8035d7cff00fd2d5e1fe305"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_state.cpp",
+      "sha256": "ea8f216dc06e7b374e84eccd5ae27d53d955145c8b4433a1ceee8f383272b98a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_subscribers.cpp",
+      "sha256": "bae5a09e109671ec28b4a843c1bc1487742d408d7bbe64fa8a41d4b33fb8194c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_task.cpp",
+      "sha256": "0d1ec78752228a1ea1166ed3022a45bbf6773617100583b7c48bdeb446ef2b96"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/microros/microros_transport.cpp",
+      "sha256": "85af7a1d19c89445165375683fa7bd5cfaa0efc43f8dc6396b3b2f5430de3af6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/provision/provision_portal.cpp",
+      "sha256": "27275cb1cd85981dc121c318f2574ef36de870feba84a7fc086d2deae795f45e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/provision/provision_portal.h",
+      "sha256": "4c8753ed9e42cd5a7c1c1e902e831ad0a03b5f08d1516eef8d29e88ca27c60e9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/provision/provision_portal_page.h",
+      "sha256": "445670a26d4bf2524cd2fc14c3749dfc61ca2dbf85d0ec3e3e58e7925a68cb42"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/network/provision/wifi_provision_task.cpp",
+      "sha256": "20a11d5bd2537a1c1db9efd75a329295686c4d78f990ca0441b2a61c390d1dfb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/sensors/imu_task.cpp",
+      "sha256": "93417d76dd6fa5e70f815ade11ba5398a6e58b4a1106eb21ce4a5484c31bd5e8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/sensors/lidar_task.cpp",
+      "sha256": "49d47e132727e90ba1cbf75e3575627e7393db1840cb5534c25906a54423c2c2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/main/tasks/sensors/ultrasonic_task.cpp",
+      "sha256": "bb18e1decac2f74d346879b6a547fc0929fbe30bc6438288396a9756c3161020"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/.component_hash",
+      "sha256": "ca2a5be1464b4bbdaaf75ecc6e46b154198e00155e9cc10e754726b79d5e4f5f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/api.md",
+      "sha256": "fa49f00d63cab790d2e3ffb1cc2436ec337fab336f55a8c2730aa1d923b655e4"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/CHANGELOG.md",
+      "sha256": "8f323462bb2f1c0159b2e2c5fef08628d47a7ff55ef9829221889c2486bbfad8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/CHECKSUMS.json",
+      "sha256": "6d25485fffbf9069880817c35bfc9017a16e9d7baaf81f01666ca04e9c4fb0b0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/CMakeLists.txt",
+      "sha256": "527e1c93841dcf98e4e30767c0b55ec117e1af52638eb72a7aec23d25a31074b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/Doxyfile",
+      "sha256": "d47673e60498454749e74da11e578cef74075b111358757339c8392223524c66"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/CMakeLists.txt",
+      "sha256": "26a31ebd66ad328361d8b69d7f99b9250685932d077dc300dc96280ff6623bc4"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/main/CMakeLists.txt",
+      "sha256": "8960b68811805d3aa40e1a7f44ddf7400c0d0731829b6d2b3b1584d8dcd3b392"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/main/idf_component.yml",
+      "sha256": "05a57e3d6808bac9e1a2f41cbcfa26d90b5a3427d518b619a1ff4946e62d791d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/main/led_strip_rmt_ws2812_main.c",
+      "sha256": "497f3b88387865c41f7a30c7ab5e0086066a344bf16f250d973bf0af907fa78f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/README.md",
+      "sha256": "a5f39b31c5f7cbf548ee31b61ab22e430a6c823404c0ddb113703512bcb3ad3c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/CMakeLists.txt",
+      "sha256": "3096c4f9363c9ccf5733c19542163dcb4497764435fb996156552b81c55c6e14"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/main/CMakeLists.txt",
+      "sha256": "34e7f83d26bca924c629ea2012e6f200b415d486907863fe936d94872ff739eb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/main/idf_component.yml",
+      "sha256": "fe89054a1b7988a7068a2952d01bfc6ae40dc59a33bc7dcc8a98cbb231d472fb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/main/led_strip_spi_ws2812_main.c",
+      "sha256": "8e052cbfd7e27d5e3382f5f115db23ea884db25f4a73fb69d34ed4867dfbf80a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/README.md",
+      "sha256": "2c02a29197cd1f2d4af4c4c9cd44677e303b0e168a1773eef9fc3fdb39377d27"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/idf_component.yml",
+      "sha256": "12ff580cba4f58c8c41cff96d0c81bc001d40d99ad15ba16afabce64261d4b8a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/include/led_strip.h",
+      "sha256": "f01e0f282fe3042b03381495c616eae211d0b75d04c64e29b3dc92721fbadc4f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/include/led_strip_rmt.h",
+      "sha256": "d3d6f0880f7443c21b48c1715e524282688ce9743085b4d7358322f6714b82d2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/include/led_strip_spi.h",
+      "sha256": "d79f3a803834ff28930a32380a48afe0977de167d31d673589e98c2a3cf66e5f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/include/led_strip_types.h",
+      "sha256": "13fb81ed62bcaa6d8686c5b095c45adede526bcba3980ad0f9341c38b4bedc96"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/interface/led_strip_interface.h",
+      "sha256": "5b7d0c326d0d0d9748830d4aec46d765400e1446055d4a1197c83111e937d74c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/README.md",
+      "sha256": "f94c5b61f704ec6247450b3252e35b6130b5350edff560dd172f3a7345fac637"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_api.c",
+      "sha256": "2a8be1284ed6b2ad000907bca3829f71a499aa0d06d47f078d6306392dcc4f4c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_rmt_dev.c",
+      "sha256": "3a41df64f2582f3abedd4bddf3111a6bba4a1f886d58dd8391ac2b903ea82e9f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_rmt_dev_idf4.c",
+      "sha256": "81b4a239b554f1ed3326b5380490316a9602bc606a00691a5f325adcbdf2145c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_rmt_encoder.c",
+      "sha256": "7e349a50bd3a161932200dd3da24a6e7316438e0e31615aed6d20deeb3917558"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_rmt_encoder.h",
+      "sha256": "690381c35ace2703a5c7156f6547a8524f4cbfe5bef40be619e2097960120a40"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__led_strip/src/led_strip_spi_dev.c",
+      "sha256": "bff2b2e1dc3240d21b1679fba42f0f4395bf9449b21ee3c2408bbc1ae1b9c211"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/.build-test-rules.yml",
+      "sha256": "8068eaf85781a37c368c47ea920f860ac5f0a882510813343b141dd4d7f38949"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/.component_hash",
+      "sha256": "42b875a92a1ceff41fd9c2f318223f7ea43fb2047247b4d078996510fc3c6834"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/.cz.yaml",
+      "sha256": "a3432f73d2f16cf0664498e3a0ec778258454f81cdc4ad02e05ba8c3c4988332"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/CHANGELOG.md",
+      "sha256": "459598b8f8bb6b7eb2a3bd9039ccb9d4220fe8dcab89b301b748b54ccd9d0e90"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/CHECKSUMS.json",
+      "sha256": "a077487f22649459826f5cd30a6c978216750cca2a56e9af0b7bab6f8196a629"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/CMakeLists.txt",
+      "sha256": "ed944380964d459f39f7a0e01e5c2fad687ec2f2cf4385f38737585def69d684"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/CMakeLists.txt",
+      "sha256": "cdbbd6563459efa2da2f0ebb9a2908e72d6b3bc23537ff993fca5f2e21137ad9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/main/CMakeLists.txt",
+      "sha256": "4eb71ffe421a99f0b918f9167c59f8c547eb47e05cab8af982505395316c4d2a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/main/Kconfig.projbuild",
+      "sha256": "544af51bd80b0a8be3930329b3611219e95c54a58ff2947ec22a458bba5e417f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/main/mdns_example_main.c",
+      "sha256": "a4435b2f99b5cf511650418376f3763b2fbcb1d8e3ba92ad559c192b33d3e1e7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/pytest_mdns.py",
+      "sha256": "7bd4b35ef6e621bca1c6c6a65a46b32711b619627dd4dbf88cdb3e21060e547a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/README.md",
+      "sha256": "413136b418087a433dc03644eb73f195ed07cf8d32869c3fbe854204af6775cc"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/sdkconfig.ci.eth_custom_netif",
+      "sha256": "b621019c544542309984672482455110a89ab2ec7ca3ef803f54065212717df2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/sdkconfig.ci.eth_def",
+      "sha256": "1944d29571e46cdebf42b270079002c1cb815b406befbcf9db403bb646e0491f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/sdkconfig.ci.eth_no_ipv6",
+      "sha256": "97b378f35bf28837a39474bb37fbbdf4b7c3eb76e6e591b690a7effb4bc78327"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/examples/sdkconfig.ci.eth_socket",
+      "sha256": "f33a881fafd231163165d06101054ba3adb7fe8d8474638bd3fdd246fbcfc6e1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/idf_component.yml",
+      "sha256": "e8a416f67959e6d557dae89463bf8f3ca2ae431a6f0d71895241e40cbf958827"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/include/mdns.h",
+      "sha256": "b920d76e362faa1e512da32f97180951c9a1983d7629814924719c6ea3554fe3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/include/mdns_console.h",
+      "sha256": "7b06003a193a2b602dc38e2f8d7b34c4ed3043e02c57345565f06030464d946a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/Kconfig",
+      "sha256": "3dd7c0176e2eea125e4babfbe3bef3af4e924b56e1e3b6825c15c2d70678dccd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/mdns.c",
+      "sha256": "a7e5f4a5c9abd5ba8f88461afe1c6e2c44a23f48fbd7ed82964b2dd35316c8c9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/mdns_console.c",
+      "sha256": "035e313302b012f61c152ca231102bb844a62e4e2fab08fccf68e9277a7f80fe"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/mdns_networking_lwip.c",
+      "sha256": "9ffe9727a7a3161709b04e638aa603b54152943d1cd7ac178fc0e3250d61d6e6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/mdns_networking_socket.c",
+      "sha256": "dad9981b90bbf1ae19d9f551566a5215e3ad328096e479a8f211298b6f7a5d79"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/private_include/mdns_networking.h",
+      "sha256": "12456bd2f36907252277db40f922cfd666fac4f59c02450a8652f9924db55cd5"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/private_include/mdns_private.h",
+      "sha256": "de8c0737ee20588e3b4d9c17dc02cde6480d7d0ae863dc35ecc93edd2d2bf4cb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/README.md",
+      "sha256": "3913ff3fb7a2126a55ee5769379f711e4eabf9c0435ae85c3bd995217178a4cc"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/CMakeLists.txt",
+      "sha256": "3127f5d0f36af81e3d00d2e47b93073eb355e30cfe2e756801f5e13fbb5db1ea"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_netif_linux/CMakeLists.txt",
+      "sha256": "f7cd00b0c7bd94f2a2e13bef8f19723596e57a2ad2df0412869f7af55322e3c7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_netif_linux/esp_netif_linux.c",
+      "sha256": "a8b7ee4ab2d6ae2c10a19c68c29ea92d74e7eb445e9d51037c27f8f739556e46"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_netif_linux/include/esp_wifi_types.h",
+      "sha256": "42b1dd10e6b6a54bc6f2a3f761d096bd5bbdc7c3d0ba122110fbcd879221bd86"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_netif_linux/include/machine/endian.h",
+      "sha256": "6affb826a6caad86367e44a69e3ea901b19e6589120980ac73e31f076b782610"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_netif_linux/Kconfig",
+      "sha256": "daf8403f8527bb3b16aee4df034c77e299c261b67c72f24438ca2732ef4b6a98"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_timer_linux/CMakeLists.txt",
+      "sha256": "23caf4ed7c5751280ed3b4e802c33bc9d17ca4bc0fc07fd274cfa4840d248d5f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_timer_linux/esp_timer_linux.c",
+      "sha256": "81726ac84882453fd1e1e3f50822f8ee12c8c63b697aa24f2dae2c8cd0766f47"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_timer_linux/include/esp_timer.h",
+      "sha256": "56191218fa4df21b263b19d6ce0941a808c3c37c7117e000e53a5f2d1142f1f3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_timer_linux/timer_task.cpp",
+      "sha256": "68f180947e75fb838ddb723763c4a8b7d71d1ee9c7df6c46822b2456f7cfb3c5"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/esp_timer_linux/timer_task.hpp",
+      "sha256": "9729d890a741d1c1fffb2ba564133eb10738d6be31fb565203f7caa4e6be322b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/CMakeLists.txt",
+      "sha256": "16026cab51ad13400657fc70570ca551caa19ca7751234c431af15d3b5a1c96a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/freertos_linux.c",
+      "sha256": "973152bc447a8913ca9e3ff900c8ee1619798821b3e9aa4e469bccdea3a28947"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/include/esp_task.h",
+      "sha256": "03394462baf393cff941a6fa5171385dac9391c7a8a5d0a69fcd7d2c4b29d2af"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/include/freertos/FreeRTOS.h",
+      "sha256": "486ff6be667786632f1e15d56bb20328911af12259fe1baa0fa51b1f179c6f00"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/include/freertos/queue.h",
+      "sha256": "38a7856d0deb1c0a0042863b40eded3748f93c6053dc9e25e378374144b7460e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/include/freertos/semphr.h",
+      "sha256": "2ddc8551a4f99c38d2e19764515020b425f874759d8757ecdd41ab9bb34b9bd2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/include/freertos/task.h",
+      "sha256": "f648d41edaec3f6c216bb387ad2d6d852642811451b921decc2e224bc0990226"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/Kconfig",
+      "sha256": "f57f2125113735e2d599a6fed5b955451d9b5db5f42d3c22e5507a6ee2266150"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/queue_unique_ptr.cpp",
+      "sha256": "fd12705b3f964c365f5c4df0eff6e20a76e15347fb63ef3e519663eb29219445"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/components/freertos/queue_unique_ptr.hpp",
+      "sha256": "684853eb69cd24b73d2150ad6ae0f357109c9d367f26ad4332c6b6af78e4f2e6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/main/CMakeLists.txt",
+      "sha256": "13fcc1a98e8593561815701a59c23ee3ede6018c793e0b2a20d1d2e16141671d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/main/Kconfig.projbuild",
+      "sha256": "61b025eea5c5639fadff69c6c9f4e64ab382fde214b218d7c3c755a0770c7914"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/main/main.c",
+      "sha256": "f7208d80ee70e1650ee3994078d64051e989aa413c960d2493a3b33167732274"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/README.md",
+      "sha256": "168820c132bd2c276d22856e5dd533cdc0add8952da06358e19528d4a3dea3a7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/host_test/sdkconfig.defaults",
+      "sha256": "1e1c2270a60d8263e69cacc7730e5940737ae1d13520997a3fac3a194d3ea7ea"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/CMakeLists.txt",
+      "sha256": "7f765f63b68f17bc3a9a0876b500ea97d7ef3005ff2c44ae8b5672a7eae0c182"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/esp32_mock.c",
+      "sha256": "5fbefaf35faff10b64563f01d5c56b4c81d4bef0111c8f8ec2f63ac7e5f961dc"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/esp32_mock.h",
+      "sha256": "774472c5bebe665814de3aafee15f2832c947038b69da04f072cdaac8f60c8b9"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/esp_attr.h",
+      "sha256": "416714c27021d76740af13d7f00274a22b93398c3f992c03bd9ad50caa2dbe95"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/esp_netif_mock.c",
+      "sha256": "29605f11fe6cb3ab2e47a94e371b331279793c3b4e44971137d354cd69199886"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/input_packets.txt",
+      "sha256": "0e766ea9238c83fa5a6c131117d297ecd2fc2e362a7ca9756ee044198c99e0c3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/Makefile",
+      "sha256": "4325c4c3634283298183814f5c6b9b544097f28f41c3dc56550b19e8adace6a7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/mdns_di.h",
+      "sha256": "6b764afeb937f09f4712b44e50b60977ffa717174affa32fd1e1095717f54e27"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/mdns_mock.h",
+      "sha256": "59d009c44873b19b9c6dfe8dd3a9d05bc4b1512086b9a30dbb4c3d27309b38eb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/README.md",
+      "sha256": "e4ea309397d3ba457f8da7c7113aff012f0f53e9a058595f81dd17cf8d615b21"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/sdkconfig.h",
+      "sha256": "19f1d6a44e99e9f90877cf72a406c6b727035285ce68eb995c455d69265ad237"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_afl_fuzz_host/test.c",
+      "sha256": "7d3302b42fc7050c8d2e5d6c4c069962c228b2e36c65f5ea101bf4f26198bae7"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/CMakeLists.txt",
+      "sha256": "507d6f01c0ca083b426c7cfb520d645dcf67308dde25669d0ee322ec200f11e2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/main/CMakeLists.txt",
+      "sha256": "da420478af13ffc5e3829b2a3aa108f1f3df7e0f8aff9a23ff84b7859e8368dd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/main/Kconfig.projbuild",
+      "sha256": "afed87b9f5dfca255bca5b050246780b867bf60fd30fa477d5a240efd16d1042"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/main/main.c",
+      "sha256": "9e4d5ebe9c1977841905ffe6ae79dbcd7ac97442697f52d6e6bce6c00418c62f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/main/mdns_test.c",
+      "sha256": "493dba6479833d997ca2cc79cc0b8e48c516303362f71dbfa40608c635904fb0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/pytest_mdns_app.py",
+      "sha256": "e05f0a3ed9b65a7bea960ae56e435b10d7ab1c1b950fda81147ac08ec972b17c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/README.md",
+      "sha256": "83e5d96b712d48a2a280126d6722c2d1780cb56483dfc42af088c6dc407830f6"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/sdkconfig.ci",
+      "sha256": "1944d29571e46cdebf42b270079002c1cb815b406befbcf9db403bb646e0491f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/test_apps/sdkconfig.defaults",
+      "sha256": "35419efd9750423871740ce1b16035eccb27abe99b058b5e1558c7901c8c0870"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/CMakeLists.txt",
+      "sha256": "dc9e538d4f5d51f4a419bbb40eefb01b88fb6392f03f1d2a7217565670a25bc4"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/main/CMakeLists.txt",
+      "sha256": "45f26ae5395a211f0499ef4dac97d1fc1ddccab75e0b2bd672aade8c170ada45"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/main/test_mdns.c",
+      "sha256": "f37efb4dad304f76c8db69268b830af57ae551ab9e022772b8240e21ce35dc2b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/pytest_mdns.py",
+      "sha256": "5f0745c7b23c9efe58de248a97ebfc4d6ee37c589b8185a5be50a539df225d9f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/sdkconfig.ci",
+      "sha256": "f6a7e77d2a456849215861ab2c18a55c7f69b2eb9b41a9c6a0c0579028546f48"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/espressif__mdns/tests/unit_test/sdkconfig.defaults",
+      "sha256": "bf225acae456eb714b977921a0e9d29bdce06d7113f5544593758357810adc56"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/.component_hash",
+      "sha256": "f07fc0db995ed7e2ee6e170e62503e86b0f143bfdc109a8d7f9cd8b026cb3e6f"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/.gitignore",
+      "sha256": "ea93cc2f5c39f61287d5bbbb0090f3a1a96dc3bf46a1dc06c834fc21edb3a839"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/.images/banner-dark-theme.png",
+      "sha256": "2ede6fbf1c3205cb2750b8f511049712bbd18a32cd53e87fd906c3d1f534519e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/.images/banner-light-theme.png",
+      "sha256": "8c89a60a1e1565843170419fa4b869b5818985d9bce8af8f4a939934199eb3f2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/3rd-party-licenses.txt",
+      "sha256": "79521d59a59c6ccf12c45a92915cc12a60cb61861034c469217ddbecde51582a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/CHANGELOG.rst",
+      "sha256": "690cb0adb3a6a18eb6e5c442e30dfbc2a09d2e6bc45249406c9f4311e7c34beb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/CMakeLists.txt",
+      "sha256": "d2b47f5318d5fd3bbb8bd273b10316489ed5d2954edf2003f5abd0f42c8e9a24"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/colcon.meta",
+      "sha256": "4e5dc73aaf5dd50c9222face39e33da22c53a4741ac90531245b3cab5e0298c5"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/CONTRIBUTING.md",
+      "sha256": "5408800066f4d3765e0ba614c329dba5b6f67f3f009bf9edc4fccbec18b57a6c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/esp32_toolchain.cmake.in",
+      "sha256": "02e79dd614b3bdea4d8b367de54a947808c9e1898aeb60957e828534766209ea"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/CMakeLists.txt",
+      "sha256": "fdc5f69791ccbb926efc8852e0a8a0a7bc2fe15b7f7b91fc9d9b620a1e127992"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/main/Kconfig.projbuild",
+      "sha256": "e8e8582cf4d26a574b6ed0aee2d82da1d2a00b98496b3e4a95939f6c84610037"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/main/main.c",
+      "sha256": "c64c279e2cd4016e8bed87db472634dacc331393bb6f504b49fe23a8c6eb8ed1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/addtwoints_server/sdkconfig.defaults",
+      "sha256": "5cb731a87ddc3389683e0dc1f9b3a9d5deb00009b705ccfa31b1d6a9ebca950b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/CMakeLists.txt",
+      "sha256": "add01701437832d1ee26386f256168775885febae10716a1bb05bbeb494fa5e0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/main/Kconfig.projbuild",
+      "sha256": "8e98d2b126bc6401c81457fb6e17c886874628056517585ff8af0f2a5b9ff8fe"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/main/main.c",
+      "sha256": "ba37ec57f229c04c8efd49fdd234f1c9867242ffceb8b6c8e612bae0180c1178"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/handle_static_types/sdkconfig.defaults",
+      "sha256": "585c1d3e8e9fcb9a2fe9efbdb9fb2bac7bbefa816c622746e24d6dc252a49996"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/CMakeLists.txt",
+      "sha256": "612c1e9be135bdba4e4aaf2e8666282b06109abf44fbc70d569d275347024fc8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/main/main.c",
+      "sha256": "0bd8d9905dc2258d203237a80fcfa1e87c905843e886160b5244286a67eeae70"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher/sdkconfig.defaults",
+      "sha256": "5cb731a87ddc3389683e0dc1f9b3a9d5deb00009b705ccfa31b1d6a9ebca950b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/app-colcon.meta",
+      "sha256": "a68a11aa5339c1bda7d201931d98a297dafddacc35bf5f59b4d2926ed1d81c55"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/CMakeLists.txt",
+      "sha256": "612c1e9be135bdba4e4aaf2e8666282b06109abf44fbc70d569d275347024fc8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/CMakeLists.txt",
+      "sha256": "de92776f8d357d7632ac8d0a2c50f4369936e332da1f55c05e5ef6fd06d0549a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/esp32_serial_transport.c",
+      "sha256": "d2ff22c492d1fcd2446d3978b8f1b6666739ba5d490ec1f2ff60e0bcac7ca0e0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/esp32_serial_transport.h",
+      "sha256": "7b3c95b0d31f0c3fbf5e79eaae2239844fb10b2d055bf35e239b0d7b6b311c57"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/main/main.c",
+      "sha256": "71ca74b9535c64f3e3dd44891e1571bb5d779c400f48541471665fff687dc3c2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport/sdkconfig.defaults",
+      "sha256": "675c723df215d5d08036989774407d3cf20cbeeb5716c2b5eb3e89c50938c19d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/.gitignore",
+      "sha256": "c28200ffb0b889432ff4d673383e60af40ee9a0b3f5398a2fab54ca8518d81e5"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/app-colcon.meta",
+      "sha256": "a68a11aa5339c1bda7d201931d98a297dafddacc35bf5f59b4d2926ed1d81c55"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/CMakeLists.txt",
+      "sha256": "612c1e9be135bdba4e4aaf2e8666282b06109abf44fbc70d569d275347024fc8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_logging/CMakeLists.txt",
+      "sha256": "432feca765d6fc234cb823f5bf6516ed63189cb09bd8326b48274eebeb0b39a0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_logging/esp_usbcdc_logging.c",
+      "sha256": "1316f56e89a507f95ad07e8d683b00bfe0e72e84b199792b97c4660047dfed34"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_logging/esp_usbcdc_logging.h",
+      "sha256": "7f5f18bfa06066e835ac94b78d6fb3c33c731ba235fb55fa4a51190362c4e251"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_logging/idf_component.yml",
+      "sha256": "f6e92240b881dbf93d479e08f2006683218489bf34ac5d73f399badce16a6a30"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_transport/CMakeLists.txt",
+      "sha256": "43c2166e7ed15855feb453e26792a58903f38a674e6e71a0c186f61cb55770df"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_transport/esp_usbcdc_transport.c",
+      "sha256": "901964d0855a284368da495af63a0dbd635f37ab4ce09e7573c5c87fe86e5dbd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_transport/esp_usbcdc_transport.h",
+      "sha256": "53f6f28f3b8254a3ef7e2f21ad8684756185a8407e7ee912b9e4e3ca720f50ca"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/components/esp_usbcdc_transport/idf_component.yml",
+      "sha256": "f6e92240b881dbf93d479e08f2006683218489bf34ac5d73f399badce16a6a30"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/main/CMakeLists.txt",
+      "sha256": "06a97f1a22c1f26c0598364c98f11f5cf7d2f3680d3fc2c2858b305ee1c6ce2e"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/main/main.c",
+      "sha256": "4d2b2c96e61e216c5f6586cf3d402119819aa2607a476e6a00921c461c47445a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/README.md",
+      "sha256": "7b2a07d10877c1edbbd3275da407479c53ffb59db983fa59863164a962038ecd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_custom_transport_usbcdc/sdkconfig.defaults",
+      "sha256": "6700b58d6782b8fb7ab1b81a5340378d9ffb4d525ff7b939305892cdd2f2b5e5"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/CMakeLists.txt",
+      "sha256": "612c1e9be135bdba4e4aaf2e8666282b06109abf44fbc70d569d275347024fc8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/main/main.c",
+      "sha256": "75caa154b89094137ff01c66e11e3516df82a31d4a990d37edd6bf2c0d19eb63"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_publisher_embeddedrtps/sdkconfig.defaults",
+      "sha256": "566a1e84036905e82fd4280bc8ce99f227a5ca26ef3ff69a41156d73dd2f69c1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/CMakeLists.txt",
+      "sha256": "91ed5253f3ca817be9afa2aaf5afbc18debd9da5e027dfa1a8e378078942fb4d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/main/main.c",
+      "sha256": "f17732d76cafce5505dfb1cc52d35e89270172da7f9ad85192c38e08ca801f0d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/int32_sub_pub/sdkconfig.defaults",
+      "sha256": "5cb731a87ddc3389683e0dc1f9b3a9d5deb00009b705ccfa31b1d6a9ebca950b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/CMakeLists.txt",
+      "sha256": "612c1e9be135bdba4e4aaf2e8666282b06109abf44fbc70d569d275347024fc8"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/main/CMakeLists.txt",
+      "sha256": "d0195ff96b9a7aeb7384e2cceee3995254db603267214dd644f261b612fd6c92"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/main/main.c",
+      "sha256": "f1fd2913b5b4e7daa9d2024cd32693189a0d364561e48872a3a4468303082759"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/README.md",
+      "sha256": "39562fd0ad555337893d51ba32948ab2fa9dfff71b68966843f9e8934b4dd2b2"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/low_consumption/sdkconfig.defaults",
+      "sha256": "48f1c3e136ed148ab42a18c98d7bb2fb0625056f64a9fcd6b84e5220863a6fba"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/app-colcon.meta",
+      "sha256": "b177e6ae5d14d1b142cc763b27c3a32bf351a2cb93d2353132c568fd964c0dfb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/CMakeLists.txt",
+      "sha256": "05be132b5b8dce3c68d5f6b59449821a9fd67b765181dc3fd722caa50bfb922d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/main/main.c",
+      "sha256": "fb8fb8669d21624ca36c159c3ef64d0d21197ff8aded21f17cf8594ab29b72a3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/multithread_publisher/sdkconfig.defaults",
+      "sha256": "91936b473a484cc7c53a8bfde0b5a8d5f49e7a32ade0fefc2b464d240e279698"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/.gitignore",
+      "sha256": "5ea1b1e2bdacc913418814815ca92362e57dff83b7df0ff46971b4760e58dc4b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/app-colcon.meta",
+      "sha256": "580b569bef82288d44c5781d5d388501f8a8296fed241005bbe8280eeaec90ba"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/CMakeLists.txt",
+      "sha256": "91ed5253f3ca817be9afa2aaf5afbc18debd9da5e027dfa1a8e378078942fb4d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/main/Kconfig.projbuild",
+      "sha256": "69c8bf53d70cf0b537180194471e5de49c3175615f5cbeda53c5b63fe8c67bae"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/main/main.c",
+      "sha256": "62b5d3af567ede70d172fc5d154ab23b99526f272f1dd5991035577fb945e9da"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/parameters/sdkconfig.defaults",
+      "sha256": "5cb731a87ddc3389683e0dc1f9b3a9d5deb00009b705ccfa31b1d6a9ebca950b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/.gitignore",
+      "sha256": "fb08bfc0a00997a7de5bc296be2ace96df201451da4f96f1ddb89313aa8926d0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/CMakeLists.txt",
+      "sha256": "2045c3831bcc569fb1a8b1d0f26315c0efd0556c3194eb07a4ccab59c99ed8ed"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/main/CMakeLists.txt",
+      "sha256": "118f944fb1b4bffd518c35b8e651e56dc456411af42508ebeb3aeeb15da33acb"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/main/component.mk",
+      "sha256": "05313064022a3e181ef2a67bb839e6a186b887b44627453a0e5f84583e45d256"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/main/Kconfig.projbuild",
+      "sha256": "a21272beb9a59bfe0f68fe62be756f77f9e509d91a924e67fabbbfb7bcc3f6fd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/main/main.c",
+      "sha256": "30547b220fafca9e78e7405a55287a622013c4502fd90277f429ffa3069fcc01"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/examples/ping_pong/sdkconfig.defaults",
+      "sha256": "5cb731a87ddc3389683e0dc1f9b3a9d5deb00009b705ccfa31b1d6a9ebca950b"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/extra_packages/.gitignore",
+      "sha256": "14086b7ac9cb06d82704d7c22cbbc1165140b4eaf8b420f56ddd4c669d11d738"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/extra_packages/README.md",
+      "sha256": "a4d011b4e61972bdcecd5599e38c777a2e2b45dd5c60f00f7c001f661dc1dbcd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/idf_component.yml",
+      "sha256": "e208c658a3151865ff56c9b9102a7d708b2f0027b89168285a6480723d71100a"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/include_override/esp_macros.h",
+      "sha256": "405f14682d93357bd064e9c60c979005497196b4554f9f02b01efbb9d95c35b3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/include_override/FreeRTOS.h",
+      "sha256": "f6f9cf36d7120854d1e4197a3b6748d4925b55df83dd299f9603627471ade334"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/include_override/semphr.h",
+      "sha256": "a600da3e925a7dcb4b1b7f64152a59afbca145956cd2e7ae0960a935113d0262"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/Kconfig.projbuild",
+      "sha256": "bfc68fde0c5a9150ca938616783dec068ac58ed5b32ea6ce55f8e92fbfcb5d9d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/libmicroros.mk",
+      "sha256": "d9c4397f3579c26e8629b70e64b7fab577b9313531949b03d40a6dd42e1b44fa"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/network_interfaces/uros_ethernet_netif.c",
+      "sha256": "3c3e31869629ab59f06a2bbe34994e13fe26a40c8ba58337766d14cf077b90f0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/network_interfaces/uros_network_interfaces.h",
+      "sha256": "5c4aa1acc1757ebac261a307f89f2e88fc3391cac0c78002465b69c3a94f62bd"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/network_interfaces/uros_wlan_netif.c",
+      "sha256": "2b4a40b814eab4fea4ccda77d9c52aed188cbe9294cf774c8b420c9aa1f8efb3"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/NOTICE",
+      "sha256": "1ab8b8a1c30c29cd832796dec69419aaaa81013d2fdc182818fc8103414c543c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/package.xml",
+      "sha256": "710aefef02a78b636e3425aad5b2da5312573ab09d0605bbc3fec904167c156d"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/managed_components/micro_ros_espidf_component/README.md",
+      "sha256": "d2aaa14f20031d627e4749a5a650b88d5bf4daf3489a8eb48273074c51a2db72"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/partitions-4MiBplus.csv",
+      "sha256": "5ea8030055fa8d6bf96793b48e46b6ba00101ed83cb8317e15ec2cb3912fd9af"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/partitions.csv",
+      "sha256": "e25702826b08cac245ed10ecd0dfa051d7339e98ddd96a5576444ffccb7010f1"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/sdkconfig",
+      "sha256": "b6099aa71e7006e2e8ba8b9dcdf7cd15d07124ea50e98da2ffb7759d2ac60e9c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/sdkconfig.defaults",
+      "sha256": "a41a78f26595d9a2898c654a45e62d9585f14690bc0d02ee127cb1cc80f778ef"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/sdkconfig.old",
+      "sha256": "c6d871dce1bb925571745d863ff4464e6cc5121b920c4615ceb7b605937fa75c"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/version.txt",
+      "sha256": "3fe0e075e295d6749493ef6793115603b2b00efed6dc3bf810ed1e2e309062b0"
+    },
+    {
+      "path": "leap_ros_four_mcu_driver/上位机集成接口说明.md",
+      "sha256": "73cbc5f40e97fca832da020ba7ce7c53d51789eb272b26feca8a17207333c853"
+    }
+  ]
+}

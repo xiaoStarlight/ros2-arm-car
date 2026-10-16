@@ -1,0 +1,1679 @@
+{
+  "captured_at_utc": "2026-10-16T06:44:24.471267+00:00",
+  "mode": "read-only source snapshot",
+  "source_roots": [
+    "/root/ros2_web",
+    "/root/chuyun_ws/src"
+  ],
+  "excluded": [
+    "git metadata",
+    "build/install/log/node_modules/dist",
+    "maps and recordings",
+    "private key/environment files",
+    "firmware binaries"
+  ],
+  "files": [
+    {
+      "path": "ros2_web/README.md",
+      "sha256": "8afd177dffcf2e9b83c390faf6fb53b9be969b78586a05586277c8a000dee9d3",
+      "mode": "0o644",
+      "bytes": 9186
+    },
+    {
+      "path": "ros2_web/package.json",
+      "sha256": "aa0088ee56e9fd8fe3ee10437cb2d752a06bc311dab0dbe3e9e19d0f7e9ea2e7",
+      "mode": "0o644",
+      "bytes": 437
+    },
+    {
+      "path": "ros2_web/package-lock.json",
+      "sha256": "7bdf87a1392b9589da014c62cb453e8014eedbcf4a4c9f9bc356a18493e85c8a",
+      "mode": "0o666",
+      "bytes": 71006
+    },
+    {
+      "path": "ros2_web/server.js",
+      "sha256": "ee74b915f9f09851b6465143dd5b68a284efb5aa316d7a2d76cbcba40b9208e6",
+      "mode": "0o644",
+      "bytes": 18329
+    },
+    {
+      "path": "ros2_web/index.html",
+      "sha256": "539efa9220225f341716bc996b4273601a96a569b67bf22c6919caede3b10bb0",
+      "mode": "0o666",
+      "bytes": 718
+    },
+    {
+      "path": "ros2_web/vite.config.js",
+      "sha256": "7b001771dca4fd438b340824147251dd4f4774bda8f6a0265f61cfbed1a5dd18",
+      "mode": "0o666",
+      "bytes": 203
+    },
+    {
+      "path": "ros2_web/start_console.sh",
+      "sha256": "975dc04116ed16a82e9d17e537fcd736c8d76d9dbcf4b7a56120400388b543fb",
+      "mode": "0o777",
+      "bytes": 4006
+    },
+    {
+      "path": "ros2_web/ros_config.json",
+      "sha256": "7d5b74d07bcc10062955d2499983290f45856f05a5bb5e7d8baf4d3060239f9d",
+      "mode": "0o644",
+      "bytes": 2529
+    },
+    {
+      "path": "ros2_web/foxglove_bridge.params.yaml",
+      "sha256": "a359f55789620824f18ae447d28eb11711f7426c593ae752479af2e2b4b1486e",
+      "mode": "0o666",
+      "bytes": 717
+    },
+    {
+      "path": "ros2_web/ros2-web-topic-throttle.sh",
+      "sha256": "b16fb041e27171620e6e370bcae4b7904280a82582b87aeebd6c6598744939a8",
+      "mode": "0o755",
+      "bytes": 1131
+    },
+    {
+      "path": "ros2_web/ros2-web-topic-throttle.service",
+      "sha256": "df999e536591ee60ca85c987efa760b06dffb5eb889d13d8fe432147c010de2c",
+      "mode": "0o666",
+      "bytes": 290
+    },
+    {
+      "path": "ros2_web/.gitignore",
+      "sha256": "e8bc935ce727f1809c792f4c5d26c5fc75ba2b7df7fc9390c56c8892f6a6007f",
+      "mode": "0o644",
+      "bytes": 26
+    },
+    {
+      "path": "ros2_web/src/main.js",
+      "sha256": "ce3985e04bbfb7ce648ca9d24ae7f448f2978a1af00c326ad52338db8019ad61",
+      "mode": "0o666",
+      "bytes": 122
+    },
+    {
+      "path": "ros2_web/src/App.vue",
+      "sha256": "49d12195ba2245bb10787524cd8cc43b56a89312330039186551b3d53018d1db",
+      "mode": "0o644",
+      "bytes": 24297
+    },
+    {
+      "path": "ros2_web/src/composables/useFoxglove.js",
+      "sha256": "b3eb7e0fcb615ddce2b7bef0cb572ebd6b82be603eef7cf3f0d9c460a304fd6c",
+      "mode": "0o644",
+      "bytes": 26667
+    },
+    {
+      "path": "ros2_web/src/composables/useCameraVideo.js",
+      "sha256": "d0de4b44975cbad120c46f450677a5d1c6f0befc70576af1aaeef4a998d63c0b",
+      "mode": "0o644",
+      "bytes": 1816
+    },
+    {
+      "path": "ros2_web/src/config/servoLimits.js",
+      "sha256": "379ebad8c9a3f6a6617c919af70baa5df36cf9f534b8c8e1b94aee0c74b6f343",
+      "mode": "0o644",
+      "bytes": 2286
+    },
+    {
+      "path": "ros2_web/src/components/JoystickControl.vue",
+      "sha256": "576212474e62d61d811abd11877cedd88e961a7fd1013c95724a30e040db59a7",
+      "mode": "0o666",
+      "bytes": 9548
+    },
+    {
+      "path": "ros2_web/src/components/NavigationControl.vue",
+      "sha256": "9ebf240a70c96336f39ec973003972b088265400341d0e6f8b0f941917d58a66",
+      "mode": "0o644",
+      "bytes": 14819
+    },
+    {
+      "path": "ros2_web/src/components/MappingControl.vue",
+      "sha256": "f976551c2686bda552108209f4cc68d6bd95de9e04b3a8d464f11700485c8f03",
+      "mode": "0o666",
+      "bytes": 3275
+    },
+    {
+      "path": "ros2_web/src/components/ConnectionPanel.vue",
+      "sha256": "54a04ab2f87d7ec32e51451f8121dcecb700eea54418a8b7084ed67c2cb557a9",
+      "mode": "0o666",
+      "bytes": 1198
+    },
+    {
+      "path": "ros2_web/src/components/CameraView.vue",
+      "sha256": "b73492605210a64078a89b0dc598396b30c0212d4951912dd2644ea5f2266e4d",
+      "mode": "0o644",
+      "bytes": 20511
+    },
+    {
+      "path": "ros2_web/src/components/SlamMap.vue",
+      "sha256": "aa3e7b5a73f086381e837bccb02e8a07233e4ab85812bc033bb4fd4d4a47da50",
+      "mode": "0o666",
+      "bytes": 40213
+    },
+    {
+      "path": "ros2_web/src/components/TelemetryPanel.vue",
+      "sha256": "a37bd3df7f0a124b36c88f457b6cf6489938d45f428bdb3d78ade586c8134d5b",
+      "mode": "0o666",
+      "bytes": 1754
+    },
+    {
+      "path": "ros2_web/src/components/ArmControl.vue",
+      "sha256": "c41cf272f6016af4a0187ff14d5ea9ffef45d2ed030c0ba6ac2f79047658d38e",
+      "mode": "0o644",
+      "bytes": 13963
+    },
+    {
+      "path": "ros2_web/src/assets/main.css",
+      "sha256": "98ec94d315a5d4079fdc1625a3e93b2a154fece7073ccc9052eb781cb7647056",
+      "mode": "0o644",
+      "bytes": 18285
+    },
+    {
+      "path": "ros2_web/src/vision/armFollower.js",
+      "sha256": "669fd232bd25990e70f0ce9c72e933727db88237b43ac655c4070dc87dc36e58",
+      "mode": "0o644",
+      "bytes": 7223
+    },
+    {
+      "path": "ros2_web/src/vision/colorTracker.js",
+      "sha256": "42975bb13dca8e80cba20468cbddb8f3584189caf6115479a2dbb833c86e94d1",
+      "mode": "0o644",
+      "bytes": 3599
+    },
+    {
+      "path": "ros2_web/tests/servoLimits.test.js",
+      "sha256": "c2efaf8891a17b608053da29a061c9f54133cfae8be9b0898bab70e01783edd8",
+      "mode": "0o644",
+      "bytes": 4078
+    },
+    {
+      "path": "ros2_web/tests/colorTracking.test.js",
+      "sha256": "131f4d110e2d58d5e64a69018b731cadd7c37fd40ae1d025483a9759bcf93f15",
+      "mode": "0o644",
+      "bytes": 13535
+    },
+    {
+      "path": "chuyun_ws/src/.gitignore",
+      "sha256": "2ef767385125df7d546a79f251e267fab5c0e68a652128987a6982cb61d53584",
+      "mode": "0o644",
+      "bytes": 350
+    },
+    {
+      "path": "chuyun_ws/src/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "mode": "0o644",
+      "bytes": 18092
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/package.xml",
+      "sha256": "68735fab3e7633324df169f93d64367d17be3ee76f0a2849bc4d99a0ea16f672",
+      "mode": "0o644",
+      "bytes": 1007
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/README.md",
+      "sha256": "75a2ebd1a555e1b7849345ac2a8e8ac6dfe26f454f8471003c77ececc90246e3",
+      "mode": "0o644",
+      "bytes": 1595
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/setup.py",
+      "sha256": "d3e0b32a29dca0edd648aba3b532ec5530843a5b985919499b56010e92f50770",
+      "mode": "0o644",
+      "bytes": 924
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/setup.cfg",
+      "sha256": "1fb41fcc1b9f93669dbd9e96dba20c5c1723230eabb7deaad737016f9d8ccec0",
+      "mode": "0o644",
+      "bytes": 99
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/resource/xuegecar_camera",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": "0o644",
+      "bytes": 1
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/xuegecar_camera/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": "0o644",
+      "bytes": 1
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/xuegecar_camera/http_video_publisher.py",
+      "sha256": "d3f37a655e420ad6cd25c86a13395f79c3e49ddd0f50da27e7ac8d664fb532bf",
+      "mode": "0o644",
+      "bytes": 6769
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/launch/http_video_publisher.launch.py",
+      "sha256": "26e87d7a35babcd5b6933933f77f295cbfeacc79bf64ab6c6bf4aa9bafff6bb6",
+      "mode": "0o644",
+      "bytes": 4534
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_camera/config/http_video_publisher.yaml",
+      "sha256": "35ee4a7fc7b5d1023026b5d1ca28c2d69e821ffd199ddf6852fc5b0b01ecb977",
+      "mode": "0o644",
+      "bytes": 287
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/package.xml",
+      "sha256": "8ca2f356aa4b620202e40168ad75ca221a825a1b2838cc47b89b8459ac8de445",
+      "mode": "0o644",
+      "bytes": 925
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/README.md",
+      "sha256": "f4e619baee6e16184e41d83890e2f274d259a6e104bb436886a6791eebf039fe",
+      "mode": "0o644",
+      "bytes": 3577
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/CMakeLists.txt",
+      "sha256": "fbc2427e941f3c7a3cf7167c1333d2a77cd098a66048f6d95ed3c66578631ddf",
+      "mode": "0o644",
+      "bytes": 2173
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/correlative_scan_matcher.cpp",
+      "sha256": "9265848707df291ce7ded29da5bc67017c3bce15b8b54832baa614d9a9e9c2b3",
+      "mode": "0o644",
+      "bytes": 7669
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/grid_map.cpp",
+      "sha256": "9c9727bcdd5e6e8b30ec12c032d699f645293662a1be0fe5c88602ef574c59f9",
+      "mode": "0o644",
+      "bytes": 10981
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/path_follower.cpp",
+      "sha256": "ffa168dc5fd55108aba71d9424228dcb718fc6dbbfe7d64079217bbbc57ff595",
+      "mode": "0o644",
+      "bytes": 7804
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/a_star_planner.cpp",
+      "sha256": "5c6b9104dcc1492f64b3326a25fc9695a1354f97f2bcdd6de9115a28bf77cf78",
+      "mode": "0o644",
+      "bytes": 10292
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/local_trajectory_planner.cpp",
+      "sha256": "68e010a9765a7b20fef3e7cc6488d213db42f3e44d503096f5849c173b9532cd",
+      "mode": "0o644",
+      "bytes": 14015
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/src/lite_navigation_node.cpp",
+      "sha256": "e1e550d331d706901549e96c6ab7095e3a4bc8e1109d3354171a311a4a08ac92",
+      "mode": "0o644",
+      "bytes": 37820
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/launch/slam_nav2.launch.py",
+      "sha256": "143ae8b7c0a05ffe6efffb468f4c9ac6b8d2ade745aea19db68b4bb3fe228dc1",
+      "mode": "0o644",
+      "bytes": 578
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/launch/slam_toolbox_mapping.launch.py",
+      "sha256": "6bf9927d74591c8f9b412d25fa712dc8bc79f5778b6e49f7a2ec2d8ddd116011",
+      "mode": "0o644",
+      "bytes": 1672
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/launch/slam_toolbox_localization_nav2.launch.py",
+      "sha256": "9a8835c70427721685089a692be2ddac05da73e094b9e4736e833d55d2e1b24d",
+      "mode": "0o644",
+      "bytes": 4400
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/launch/navigation2.launch.py",
+      "sha256": "86b34a3606a360bd16b3d2a2dc012500649c5965df72ad667a1daa7a0acbdf90",
+      "mode": "0o644",
+      "bytes": 1165
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/launch/lite_navigation.launch.py",
+      "sha256": "83877410576dba3019bb0cb423fcd0248889adfa98a71ebc83bb8abbbd992c87",
+      "mode": "0o644",
+      "bytes": 2250
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/lite_navigation_omni.yaml",
+      "sha256": "6a7087bb6fd16cb633fadbdd6b1cf821f65c0748f7c0463783db9e09f625e5cb",
+      "mode": "0o644",
+      "bytes": 3375
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/lite_navigation_diff.yaml",
+      "sha256": "4208723f8726c77bb37162792b9b5e8f13ef901f8235f96e33666b4fa54aed05",
+      "mode": "0o644",
+      "bytes": 3379
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/mapper_params_online_async_1hz.yaml",
+      "sha256": "1430166d4f2cd828c4e166312070b9a3d643a8377941d05f001173cdcc2cb1dd",
+      "mode": "0o644",
+      "bytes": 2536
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/ekf.yaml",
+      "sha256": "564e7b15afd278c5c04f2aef5b78596b4173184c039df20cfa938ba599ae02b4",
+      "mode": "0o644",
+      "bytes": 1176
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/lite_navigation.yaml",
+      "sha256": "c1b4155c052d65263c9b927bbb6ec87168cf14915daec47a703eda9d782ff1a3",
+      "mode": "0o644",
+      "bytes": 3329
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/config/mapper_params_online_async_1hz.yaml.bak_20260914_174816",
+      "sha256": "1430166d4f2cd828c4e166312070b9a3d643a8377941d05f001173cdcc2cb1dd",
+      "mode": "0o644",
+      "bytes": 2536
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/param/nav2.yaml",
+      "sha256": "ae1eb7d51207f60d4d656838b3f073f5fcb4571510fcd7e4300d4ab7efee91dd",
+      "mode": "0o644",
+      "bytes": 8284
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/param/xuegebot.yaml",
+      "sha256": "20dd02190324126cbe258f141c5c62284c5a3cf4bc97178bbd2b8e854be05cb7",
+      "mode": "0o644",
+      "bytes": 9816
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/a_star_planner.hpp",
+      "sha256": "6e74cca0b146685b32a1719ef039d35af4a4f8aeceaa7f891433726ec5b01cd5",
+      "mode": "0o644",
+      "bytes": 979
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/grid_map.hpp",
+      "sha256": "977cf1ce9ee675f60b8854481d51406079dfdd4981fdaa1f11a58a3f04e05c40",
+      "mode": "0o644",
+      "bytes": 1331
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/types.hpp",
+      "sha256": "5283dc37c6629ba0045371c7937a0f5e8f3cc8f1807d31a671c877014bc76c5b",
+      "mode": "0o644",
+      "bytes": 1440
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/correlative_scan_matcher.hpp",
+      "sha256": "b0452d5d8f9b183d57463953f5400104dbc4411ee29849d26e34dc14aa25b8e0",
+      "mode": "0o644",
+      "bytes": 1632
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/local_trajectory_planner.hpp",
+      "sha256": "2626e37b3345045ed7ab771842bcf3835365bea90d2073134a73e1ceed043878",
+      "mode": "0o644",
+      "bytes": 2488
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/include/xuegecar_navigation2/path_follower.hpp",
+      "sha256": "48730bf24eaffb90528c85dda1bc8fe6b2ba484db9b25f362a495041959b2b80",
+      "mode": "0o644",
+      "bytes": 1761
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/rviz/xuege_navigation2.rviz",
+      "sha256": "f701590b68a49c866d7e9c968096d25cc1041e688ce69e1f830f03b4988c3613",
+      "mode": "0o644",
+      "bytes": 17490
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_navigation2/test/core_smoke_test.cpp",
+      "sha256": "3e39c6f6870d4e2c05c14a0350c86f7a913105804c1f87c373ac0a3d88e62178",
+      "mode": "0o644",
+      "bytes": 8861
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/README",
+      "sha256": "b84a22e02d5ad141a630108e14bc67885daaf8f343c943d2ef8109224d6c3288",
+      "mode": "0o644",
+      "bytes": 167
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/package.xml",
+      "sha256": "63dd2f3225d7a689fd8d372ac2440f0807d437f97de5c0ffc4abe9506b8b40df",
+      "mode": "0o644",
+      "bytes": 1003
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/CMakeLists.txt",
+      "sha256": "ba2bcdffd498798aef6833f04ffe073cbc9763d628a60a7e659fb585bced0fd6",
+      "mode": "0o644",
+      "bytes": 890
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/CHANGELOG.rst",
+      "sha256": "274f2975d1032e46f65ed4b1ec8e351b36d2b01676dc410d2c59cfa987f5e6a3",
+      "mode": "0o644",
+      "bytes": 904
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/icptest.cpp",
+      "sha256": "7c2df31a576853381edfd7c4a14e784e8c1ed689dc583c6853f05e71a9555549",
+      "mode": "0o644",
+      "bytes": 2692
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/scanmatcher.new.cpp",
+      "sha256": "9bc5f20e4bfba68b9ee98302c113b2ec55ff6739a793183a842011db6ef9571c",
+      "mode": "0o644",
+      "bytes": 12941
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.h",
+      "sha256": "d8063c2ff048db00d47ab1a1903e34c712d25b5a0cb9129f10e819045bcd19c7",
+      "mode": "0o644",
+      "bytes": 1487
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/eig3.h",
+      "sha256": "dd0c8c41f3fec45f606ea9be8b6da54de3a3eba0c1762c786e8bc34877927cb4",
+      "mode": "0o644",
+      "bytes": 316
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/gridlinetraversal.h",
+      "sha256": "0a5d7c5f4959ea1711f07dba2fef2c9b35f6f2f7bf1b041ed9476980bb44c306",
+      "mode": "0o644",
+      "bytes": 2562
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp",
+      "sha256": "47c2c51a595754c98166b5858f4463f1f69268608c85ff945755124c44ce7ba7",
+      "mode": "0o644",
+      "bytes": 6819
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/scanmatch_test.cpp",
+      "sha256": "6c48ad39cbdec6f7d6d38cda8f658485eaeb320de1a387a443b578ec32698031",
+      "mode": "0o644",
+      "bytes": 5518
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/lumiles.h",
+      "sha256": "aa65ae6f2eb54565852d1dd010293787227ea8dd8bb96f197c69aef32d260389",
+      "mode": "0o644",
+      "bytes": 1139
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/eig3.cpp",
+      "sha256": "a73c8e0a98853cc9f7a1e8cbd60b7a6efe418cd7eb4c38b3d2a103bc530a0cfc",
+      "mode": "0o644",
+      "bytes": 5583
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/CMakeLists.txt",
+      "sha256": "0fd98de8d4dfc71da40cd37bc9368ba7848fc7f7291ef466abd466d1062bea96",
+      "mode": "0o644",
+      "bytes": 192
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/smmap.cpp",
+      "sha256": "15270b581d5272895d7b792875ec222048211cf4fd538fd33e01bd07c63d46b9",
+      "mode": "0o644",
+      "bytes": 254
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/scanmatcher/scanmatcher.cpp",
+      "sha256": "9b3fb1eba6e87d389cbec1f1bf1011595de0137171afa462ca5bdd2e9708c16a",
+      "mode": "0o644",
+      "bytes": 22835
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/particlefilter/range_bearing.cpp",
+      "sha256": "71470a8b7f11a8a4da91289e9d9d751fbac6ea90037b40ec1da4fc2fcc0008a2",
+      "mode": "0o644",
+      "bytes": 2423
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/particlefilter/particlefilter_test.cpp",
+      "sha256": "f4b993e29d428bf03296553edda6b95c896a151a26cb4e8b2286f160d09a239e",
+      "mode": "0o644",
+      "bytes": 2517
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/particlefilter/particlefilter.cpp",
+      "sha256": "7a8d9f45f875a10497bf170af42ab2a084ee24add455bc5c3d349ddcf9f78ab4",
+      "mode": "0o644",
+      "bytes": 4324
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfsreader.h",
+      "sha256": "b19d00622962aa0d462ee411ba42df7694957edc2c5fc85eca0b48b6219d166c",
+      "mode": "0o644",
+      "bytes": 2150
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfs2stat.cpp",
+      "sha256": "8826cd39c573a3315a0276b4dbe9f4f5a1a6ea59b7773a6490d555c2d4310897",
+      "mode": "0o644",
+      "bytes": 1449
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gridslamprocessor_tree.cpp",
+      "sha256": "2f50ece7d3f852f4b79fdb8fba7de2b52851e52a286739bf9fb34e25105d765e",
+      "mode": "0o644",
+      "bytes": 6633
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfsreader.cpp",
+      "sha256": "930dbbc534b07f7fde269d0d44dfe776011b982a7465af3203e8ac48d5a8463e",
+      "mode": "0o644",
+      "bytes": 12800
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/motionmodel.cpp",
+      "sha256": "9eb5b54940d42c4028a8271468bd1139b6f9e6b7f404e85df4a3660e377998a8",
+      "mode": "0o644",
+      "bytes": 2705
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfs2neff.cpp",
+      "sha256": "d69c67f3e5f19f8ee48eb31a1e71539f54bc538e4b6379d000ce5215a48be46d",
+      "mode": "0o644",
+      "bytes": 755
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfs2rec.cpp",
+      "sha256": "2b4ee6a69c010e642f04bac42d1d35e913a252bde1d5a70d685218787f98baf9",
+      "mode": "0o644",
+      "bytes": 9485
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gridslamprocessor.cpp",
+      "sha256": "9231512369e14a8ce5d987e9f0b144d4236ecc67d864dba7f164ba0063cf266b",
+      "mode": "0o644",
+      "bytes": 18460
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/CMakeLists.txt",
+      "sha256": "ab7908cf3898c101b8adb6f0da358648963b1c75b7a2820a6feb1e72a8d99225",
+      "mode": "0o644",
+      "bytes": 293
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfs2log.cpp",
+      "sha256": "5e0f0d8e8e511769c45137faf111e513fa5f185357bcf2552c99245e2df7c67b",
+      "mode": "0o644",
+      "bytes": 1282
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gridfastslam/gfs2stream.cpp",
+      "sha256": "b2c3e6bc3f76a15047f09b03f2812c1a1c7bbe5eacbffcabbf572612b87db45e",
+      "mode": "0o644",
+      "bytes": 1344
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gfs-carmen/Makefile",
+      "sha256": "90a0a61c63c0d332f8c11073ceaabe089542ad76ceffdd2c49dff07ee77441f7",
+      "mode": "0o644",
+      "bytes": 267
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gfs-carmen/gfs-carmen.cpp",
+      "sha256": "604591a6350a5ae76c8ec13df14e7cbb998f535a4f860a99f4de715df007342a",
+      "mode": "0o644",
+      "bytes": 7781
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/testlib",
+      "sha256": "9ec2fb73709fef5a4fda0881eba2c15a0af3bba168b64cd87bd08db6961688e3",
+      "mode": "0o644",
+      "bytes": 361
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/generate_shared_object",
+      "sha256": "d8d1c248d34caf9877e5f6d727cb4027d8603513cedde92f063bdc382924aab3",
+      "mode": "0o644",
+      "bytes": 202
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/Makefile.subdirs",
+      "sha256": "a64ba747dbc1fb0f322e660c4dff5ae9d6c9cfdfbaf6f8b083488bdd3cfae768",
+      "mode": "0o644",
+      "bytes": 486
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/Makefile.app",
+      "sha256": "52f11e92cb71ed29d4edd837bff96af7094797657680b22d4da7dcfabd2d4139",
+      "mode": "0o644",
+      "bytes": 2090
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/pretty_compiler",
+      "sha256": "6b174c5ab5de56f952ac8bf090f0d190ac6e5f7fe4c57fd2eb77b253dd8e96c4",
+      "mode": "0o644",
+      "bytes": 295
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/message",
+      "sha256": "304c93333969542737d52e6c8913f33b37b961142445ab00e479c103184c470c",
+      "mode": "0o644",
+      "bytes": 160
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/build_tools/Makefile.generic-shared-object",
+      "sha256": "521bb10defb412f7de7cb14a691870a84b2fa04a396174f24436b212589a2820",
+      "mode": "0o644",
+      "bytes": 2915
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/carmenwrapper/carmenwrapper.h",
+      "sha256": "19732c7a9e6042714355b25616de7bae86343ddbdf9e39bdfe43c128bf699356",
+      "mode": "0o644",
+      "bytes": 3286
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/carmenwrapper/carmenwrapper.cpp",
+      "sha256": "49922b1cbadf3be46ce0f86cd7dea8115c1a8878afc31dd76f23a396876baf78",
+      "mode": "0o644",
+      "bytes": 15644
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/printmemusage.h",
+      "sha256": "c7db46df92c28f885edf6deb88251eecfe48c1adc936cc96928855d5a8515981",
+      "mode": "0o644",
+      "bytes": 203
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/stat_test.cpp",
+      "sha256": "4bc74b39ac912e662160fb7e73d91990125c0682e8efe2a787ed2fb924c90904",
+      "mode": "0o644",
+      "bytes": 2691
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/dmatrix.h",
+      "sha256": "da72da46395dbaeb7b5c5ee152ed6aeeacb510ac8d629dfe46da0a15f92fc06a",
+      "mode": "0o644",
+      "bytes": 5399
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/stat.cpp",
+      "sha256": "7dda994e7e473e20d542f75fee068c79c05f73706c422414379243cc819d0cc5",
+      "mode": "0o644",
+      "bytes": 7437
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/movement.cpp",
+      "sha256": "a26c13be2a1dfa7b62c60b3a34178d1ff1f360948aad09c5581211ec075d5dcb",
+      "mode": "0o644",
+      "bytes": 2779
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/datasmoother.h",
+      "sha256": "3fd0c1cbd456533cf1d7893d1386cc55067a339b68dab4bc5e4d9fc1396ee5ab",
+      "mode": "0o644",
+      "bytes": 10302
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/printmemusage.cpp",
+      "sha256": "8f09c3d86c7a1b3df96f3c457983032542f7c938df9d68cfc91e421659842ea0",
+      "mode": "0o644",
+      "bytes": 440
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/optimizer.h",
+      "sha256": "9e168ee80768fee7cce3ef8f61c80b34a65cdeb636cc879755636d6920783623",
+      "mode": "0o644",
+      "bytes": 4552
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/printpgm.h",
+      "sha256": "9ffe5be6c5b948e353b7f653a87f3ff7b32739f05b346e13805d0c6a8649dcd4",
+      "mode": "0o644",
+      "bytes": 468
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/movement.h",
+      "sha256": "cd7407ac53cb2ae47d90cf5a6d30998ef9106b8e2885dc642d3384d2bcdc0837",
+      "mode": "0o644",
+      "bytes": 1158
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/autoptr_test.cpp",
+      "sha256": "993f12ec2fff316c62217cd3dcd7707bef9a5752697778e8bb10825b5c9f3142",
+      "mode": "0o644",
+      "bytes": 841
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/orientedboundingbox.hxx",
+      "sha256": "4ac0c7532891537f4748dec2c4df63c21fbfbb374d954036efd9780112e744ea",
+      "mode": "0o644",
+      "bytes": 3256
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/orientedboundingbox.h",
+      "sha256": "6a682bdcfba2d2f15da06af53743f6ccda3649659c242c697f8b7e3b2c9a0468",
+      "mode": "0o644",
+      "bytes": 419
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/utils/CMakeLists.txt",
+      "sha256": "2cecd834fc3f7627657254923bbae77b114e8e3a5ea8accb15dafc0e59dac253",
+      "mode": "0o644",
+      "bytes": 135
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/grid/Makefile",
+      "sha256": "768751250beacb5ec8c2a3f0325eeed553467b9a148f66f8e498a8ffb26103bd",
+      "mode": "0o644",
+      "bytes": 116
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/grid/graphmap.cpp",
+      "sha256": "4e21ef67137904a01e312ad19de584c6ea78dfbd447dd9ffd4ff969852350261",
+      "mode": "0o644",
+      "bytes": 1450
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/grid/map_test.cpp",
+      "sha256": "94d5fe923bc61dbcf016dcf8a7c53f0d06be0fed4dc77b12564cf33449be6d4a",
+      "mode": "0o644",
+      "bytes": 1639
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qnavigatorwidget.h",
+      "sha256": "5ba2b7af8da6e1f4331960943595a29fa7e053e4cac46923a8ab7ce8e9097faa",
+      "mode": "0o644",
+      "bytes": 848
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gsp_thread.cpp",
+      "sha256": "02360f993d1a832859ac3a4587f30cc26ab0a4c563eae16ce29fcefab08097aa",
+      "mode": "0o644",
+      "bytes": 18262
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qmappainter.h",
+      "sha256": "939d2dca3aa9edfe394fb05ab453bdb02fa635d9d721b2a61d1e6ec7a42def9e",
+      "mode": "0o644",
+      "bytes": 1768
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qmappainter.cpp",
+      "sha256": "d2bc63697d0aca66e5661fd78064034be9c0d902949506cb8aab136b37d7e40d",
+      "mode": "0o644",
+      "bytes": 689
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qslamandnavwidget.cpp",
+      "sha256": "cbcf17e124473dac1028d72c087f1ea5b531689f15f843600d605f7fd00ed989",
+      "mode": "0o644",
+      "bytes": 2727
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qslamandnavwidget.h",
+      "sha256": "61717d15ee2b07de4eeb06f751f13802307e4c3dc40b8be65cd4cfd180ae4582",
+      "mode": "0o644",
+      "bytes": 855
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qparticleviewer.h",
+      "sha256": "e501678fb29ee6404605326e0e6c99ecd1757cc8d554ff77980a527e5fc1a1ae",
+      "mode": "0o644",
+      "bytes": 4153
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qnavigatorwidget.cpp",
+      "sha256": "db03ab820d0e38b605ffefa5a78ec8b5d9d03d6f11ee41b85b8fc77a8418f036",
+      "mode": "0o644",
+      "bytes": 2852
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qgraphpainter.h",
+      "sha256": "3ce5cc6a4671c2bc25d65c1743d8758ffbb183e91a2ae05e130f90a6f615e563",
+      "mode": "0o644",
+      "bytes": 1842
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qpixmapdumper.h",
+      "sha256": "233e82e503d43aba65b76694698046796ad0c0efac15f8681d5b325583a63ac5",
+      "mode": "0o644",
+      "bytes": 326
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qpixmapdumper.cpp",
+      "sha256": "2aa92e082da449c008948d213e8a06eac432073bf8fbbeb4a49f866a1afd3646",
+      "mode": "0o644",
+      "bytes": 593
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gsp_thread.h",
+      "sha256": "5781ca294bdd9a3bd6ac8d5ab8957089513ed6556776a0c5ee96803e96b2305f",
+      "mode": "0o644",
+      "bytes": 4184
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gfs_nogui.cpp",
+      "sha256": "17fe133962e918ed8fc740bd6408408f4f99b83698ab2faf891f57f433482d0a",
+      "mode": "0o644",
+      "bytes": 1970
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qparticleviewer.cpp",
+      "sha256": "519c7016c8a21ac41e710ec1f482cccb615387ecda8301bd4736e608f4cb58ff",
+      "mode": "0o644",
+      "bytes": 13559
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/CMakeLists.txt",
+      "sha256": "39c56980b87b538fe0e0de16afe4116dee4e3d08049c51bd2f0216838cb78e73",
+      "mode": "0o644",
+      "bytes": 979
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gfs_simplegui.cpp",
+      "sha256": "64b6b5d2206e779d30ee3e84e588121ba5aa1d94f95deca15f55891bc2a12d11",
+      "mode": "0o644",
+      "bytes": 2909
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/qgraphpainter.cpp",
+      "sha256": "ef7f95265183ff77ef31c8a39041129c6d5f76fccd9d78246d6f8b929bac7d2e",
+      "mode": "0o644",
+      "bytes": 3658
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gfs_logplayer.cpp",
+      "sha256": "e70c0429fcb69ef6c99897a73fb0a158b5265aeb4b0fcbfdf51977a83d650228",
+      "mode": "0o644",
+      "bytes": 1192
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/gui/gfs2img.cpp",
+      "sha256": "77bd7aa5191da7eb202176c3217796962bffc09525f21aca57d37e8a8e89c472",
+      "mode": "0o644",
+      "bytes": 7516
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/scanmatcher/smmap.h",
+      "sha256": "95319b2e514487ab544e865eeeef51db3a333629604160712dde5fe961f62a45",
+      "mode": "0o644",
+      "bytes": 1422
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/scanmatcher/icp.h",
+      "sha256": "603473ea601d1038d900778de83e7a2b39af73327d741724842e6b32b718231f",
+      "mode": "0o644",
+      "bytes": 2778
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h",
+      "sha256": "c0d51992db12f11b2befd9e8cbf89e2d83c22b75a92dfa9e757c2f15f3e458f6",
+      "mode": "0o644",
+      "bytes": 9783
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h",
+      "sha256": "02deeb32be1ee7e69ebd00a360fb7a088a1f6212006805b656eb234792510bf0",
+      "mode": "0o644",
+      "bytes": 9458
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h",
+      "sha256": "729ea60f48fdec14df4521070d1168f2073fc5c0bc47a35eb9f51418124b04a3",
+      "mode": "0o644",
+      "bytes": 552
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h",
+      "sha256": "0fce9b70c3d296fd5f706891cea1e06ec03c0f26d0df3153027d0f8fe0e80a14",
+      "mode": "0o644",
+      "bytes": 13248
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.hxx",
+      "sha256": "b04b4ee046648699e0bd4012897520b01d0aca523d7ab952041d54a96d53079a",
+      "mode": "0o644",
+      "bytes": 5766
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/macro_params.h",
+      "sha256": "ef1a55a6c6263021a3575dd5c99fb86bdfdc275234a4468516494341c461a280",
+      "mode": "0o644",
+      "bytes": 1740
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/autoptr.h",
+      "sha256": "c7085275552d58e51ef6641dc36d795c492d3ee9d5ab381c01c16a79c3206cb0",
+      "mode": "0o644",
+      "bytes": 1843
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/point.h",
+      "sha256": "ca6859cc038d19822091c41b27f4a169bffe6fd5c80f402a54f8e58f377e0bfb",
+      "mode": "0o644",
+      "bytes": 5410
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/commandline.h",
+      "sha256": "b04c5cc973f33f820b1f5911551e17df656763d6ed3dec21f712a8585a854fad",
+      "mode": "0o644",
+      "bytes": 2347
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/stat.h",
+      "sha256": "b05b693f43bc95c12e2333707cea24021092555650a177326aca1da12bf0708e",
+      "mode": "0o644",
+      "bytes": 3565
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/utils/gvalues.h",
+      "sha256": "40a7b9598669686c57dea843ea0f08716a847b335a570a65e763d4faa4d2ad1a",
+      "mode": "0o644",
+      "bytes": 562
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/grid/harray2d.h",
+      "sha256": "bc11f7185cc74548cfdb5193b8ab6679909baf9615256e000a480d134d26c172",
+      "mode": "0o644",
+      "bytes": 6629
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/grid/map.h",
+      "sha256": "909ced60072352fd5ebabdf37c4886f996f83146e78ef55fb84cb1d06d96c1ed",
+      "mode": "0o644",
+      "bytes": 9403
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/grid/accessstate.h",
+      "sha256": "ecca2a03cdf7b75c0a79ae778d9a78837151d21255d2440c48568790c456f243",
+      "mode": "0o644",
+      "bytes": 141
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/grid/array2d.h",
+      "sha256": "51074f4e443f4513ed05e0a1e1472e69f2ac765d5bb1a5a8a6ad3adb52e6c79a",
+      "mode": "0o644",
+      "bytes": 4895
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h",
+      "sha256": "53dcea2fda00fb8e3a74f60238994c358732145d835ca7282074a51633fc74cc",
+      "mode": "0o644",
+      "bytes": 466
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h",
+      "sha256": "7fb509eae23c5d020d891d026b8347dad5a456e657341a0bef77cce280d5fa77",
+      "mode": "0o644",
+      "bytes": 405
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h",
+      "sha256": "67537286257df51b725ae07c6785f1216bdf67493dcd4da45f5303c9d7d9aa6d",
+      "mode": "0o644",
+      "bytes": 1046
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h",
+      "sha256": "b3f16df89103450d2bd2a8a041f8dd6ab61958c54a76063d8342aa3e906c79cc",
+      "mode": "0o644",
+      "bytes": 803
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h",
+      "sha256": "374f5a1ca028ffe78782c0aa861c16864e301deb652e789459f953373750dc38",
+      "mode": "0o644",
+      "bytes": 873
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h",
+      "sha256": "bbc60f2b952982a27a9a7ce92e8b70dfd8bc05a250be70fd41c6d94d5bb9398f",
+      "mode": "0o644",
+      "bytes": 341
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/Makefile",
+      "sha256": "145bcf785b9bf9d432a00feadfc9f52321433027af29b7765cd507bf99968739",
+      "mode": "0o644",
+      "bytes": 114
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/CMakeLists.txt",
+      "sha256": "c977b940b73d6599011f8582ed7ddac50855f99d4d63f8b78e9765dae6fefd98",
+      "mode": "0o644",
+      "bytes": 209
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_base/sensorreading.cpp",
+      "sha256": "519f25f5338359c42786fcd39ab8fe82e9f776c0f3ee196699d64e2e6ee4a1db",
+      "mode": "0o644",
+      "bytes": 218
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_base/sensoreading.h",
+      "sha256": "962c62a8219068b3cbf7f40e09cb5cfab876638520f3f03d251646df3210152b",
+      "mode": "0o644",
+      "bytes": 365
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_base/CMakeLists.txt",
+      "sha256": "0b145935deefc91c2ba55a6b846cdcc7343d763fc623ce8bf5676157970c3a8d",
+      "mode": "0o644",
+      "bytes": 135
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_base/sensor.cpp",
+      "sha256": "7c9d642df72af78bcc7e1c048275dc5206f4db70ed978fa29df11c60747b647d",
+      "mode": "0o644",
+      "bytes": 169
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp",
+      "sha256": "80680f64269eb457b76e750ab2b5f88c62ec53251729e66095936b5d9398e415",
+      "mode": "0o644",
+      "bytes": 3168
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_range/CMakeLists.txt",
+      "sha256": "b156e96aeb5ae9a7e19e8c4b5d2370668d9cfd6a67498cd301ba835ba4924725",
+      "mode": "0o644",
+      "bytes": 244
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp",
+      "sha256": "85c700a8cbdd738fee7b395f9d5ea49cbd6bf4ff0718773f2507946fd6e479eb",
+      "mode": "0o644",
+      "bytes": 810
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_odometry/odometryreading.cpp",
+      "sha256": "c13a3d813e8c495445724e2ccbf547768a8990c14125c782f4584f48850f13d5",
+      "mode": "0o644",
+      "bytes": 189
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_odometry/odometrysensor.cpp",
+      "sha256": "5f140f44fe1a6582f13e4eb878dccc17963ee25bca2f327511054787adc52e11",
+      "mode": "0o644",
+      "bytes": 187
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/sensor/sensor_odometry/CMakeLists.txt",
+      "sha256": "f3b073ac2c271d946384630f68335f9d5681d04f631541a42afce79fec333a84",
+      "mode": "0o644",
+      "bytes": 210
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/ini/gfs-PLS-5cm.ini",
+      "sha256": "5efecaf05b0802c58dc8abd1282771181b07c9927ed1d1c108b987bd08b19dbd",
+      "mode": "0o644",
+      "bytes": 2603
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/ini/gfs-LMS-20cm.ini",
+      "sha256": "0bd211982ac441bd192242a9e898aaf835364577e1acaf51fc61979084d34029",
+      "mode": "0o644",
+      "bytes": 2540
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/ini/gfs-LMS-5cm.ini",
+      "sha256": "b969eace87f6ad5d1c1529fe949d7c4c42b16e24acd4db13e70d32642006c638",
+      "mode": "0o644",
+      "bytes": 2603
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/ini/gfs-PLS-10cm.ini",
+      "sha256": "b27c5d100c2c644ce5f06d7f2d4d3506b32a2b8ce1be3d9ea21317ac13f209a3",
+      "mode": "0o644",
+      "bytes": 2776
+    },
+    {
+      "path": "chuyun_ws/src/openslam_gmapping/ini/gfs-LMS-10cm.ini",
+      "sha256": "eae20111b3894fd607e33d667e914b218e548b5620d14284ff02f457ab216f08",
+      "mode": "0o644",
+      "bytes": 2600
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/package.xml",
+      "sha256": "81763f0040315837eebb376655917da218584a1c0bcc53e9ef9858c18d8d47ec",
+      "mode": "0o644",
+      "bytes": 657
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/CMakeLists.txt",
+      "sha256": "34d155679fc90abf0cf5216e824737c4461e7786145ca7fc1f867724e5aedbe7",
+      "mode": "0o644",
+      "bytes": 1105
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/launch/cartographer.launch.py",
+      "sha256": "7fd4c817c68336ebb309dbb1ac63148728faa8fdb4061de626c0b9bdcf3cc020",
+      "mode": "0o644",
+      "bytes": 2192
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/config/xuegecar_laser_2d.lua",
+      "sha256": "55366efdaf02c42baa9d2ea90257cdc98e2c659133e63e56d08464ea334828d9",
+      "mode": "0o644",
+      "bytes": 2720
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/config/xuegecar_2d.lua",
+      "sha256": "24a0cd28892a32f9783e38b2c19496f91478df1c3bcc82a53dae59966bd1bd0a",
+      "mode": "0o644",
+      "bytes": 2281
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/config/cartographer.rviz",
+      "sha256": "916c3babe7094c6cbabac8f20363d106b7018692f2afcf8c2017dcc93d46d62b",
+      "mode": "0o644",
+      "bytes": 7211
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_cartographer/rviz/xuegecar_cartographer.rviz",
+      "sha256": "95a89465488b7d685c3922ecf816473b095a8cc49151b9375fc673101377395f",
+      "mode": "0o644",
+      "bytes": 15308
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/package.xml",
+      "sha256": "8c4abfc7574c85406647a6d8869a174c341e1dc302500fb0883d53f3defc18a3",
+      "mode": "0o644",
+      "bytes": 1007
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/README.md",
+      "sha256": "98f4c305e77a235e0c831ec916ae7c1e37d6e937d491d83c3130550bdd7a8252",
+      "mode": "0o644",
+      "bytes": 900
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/.gitignore",
+      "sha256": "77ad9e59a51400f8484dae2ab944b5f13ab41f1a519fa839498267df18ed466d",
+      "mode": "0o644",
+      "bytes": 165
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/CMakeLists.txt",
+      "sha256": "604364f0c8fe756b90f32dc8d328a19b914607b4447ed5d381f1159e2f438114",
+      "mode": "0o644",
+      "bytes": 711
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/CONTRIBUTING.md",
+      "sha256": "dba1110151f23072d65790e15571aa3dc98e47d50a004937f1d6a1d2acd28ef2",
+      "mode": "0o644",
+      "bytes": 4738
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/CHANGELOG.rst",
+      "sha256": "27f717f78c985e1b84e7ca4ace0b15ce65ce80f88c825e37e0317be808b709ae",
+      "mode": "0o644",
+      "bytes": 720
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/.github/ISSUE_TEMPLATE/general-issue.md",
+      "sha256": "fa0e1cd4c6509fde514610e20ce624cdd0bfd068ed2db2bab080321bfac8fff4",
+      "mode": "0o644",
+      "bytes": 588
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/msg/Entity.msg",
+      "sha256": "7853f90fd8eda48a3f787a7cf7db0164c2d57cd06d242e4f105b20abc8e21092",
+      "mode": "0o644",
+      "bytes": 134
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/msg/Graph.msg",
+      "sha256": "4c17259b26389b036e3cf3da6f1c44f3a454af3d47268e232a9bb07343968f7d",
+      "mode": "0o644",
+      "bytes": 13
+    },
+    {
+      "path": "chuyun_ws/src/micro_ros_msgs/msg/Node.msg",
+      "sha256": "502347490f1b71efbd3b011fdc2d026d17a48729e0b679efc3b04011d6c40a6f",
+      "mode": "0o644",
+      "bytes": 67
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/package.xml",
+      "sha256": "b5a5f14b40d41877300749ccb0aaa0f5126ea57062de4029a1b4c933a6ae33f9",
+      "mode": "0o644",
+      "bytes": 853
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/CMakeLists.txt",
+      "sha256": "43562383f53e180c05d215662883988aa9009df89cb4e2571f82a1e200838b94",
+      "mode": "0o644",
+      "bytes": 1920
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/src/xuegecar_bringup.cpp",
+      "sha256": "41f2bd566ee46a9eecdced9533bfd2c59e412d1d7f77a4c6b6ec667aebf1d563",
+      "mode": "0o644",
+      "bytes": 2666
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/src/ekf_input_adapter.cpp",
+      "sha256": "7d2cc7451f71f1c63713f049fccc09512f9b90612872ba9e932251d316b319ad",
+      "mode": "0o644",
+      "bytes": 3151
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/src/web_odom_throttle.cpp",
+      "sha256": "263cd79cc89158967cab23e53cd7eccd6cda113deb012be813d68f38927fc2f0",
+      "mode": "0o644",
+      "bytes": 1487
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/src/web_tf_aggregator.cpp",
+      "sha256": "55f04fa18d9d296bd0f4994689f3d65e5e78416b785967577a07047900514034",
+      "mode": "0o644",
+      "bytes": 2659
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/launch/xuegecar_bringup.launch.py",
+      "sha256": "f3b288661fefb108568b5c4528e7c2e347c96805f57a2ff05584a2fa08759fc8",
+      "mode": "0o644",
+      "bytes": 2179
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_bringup/config/ekf.yaml",
+      "sha256": "1c49da8059c98c7cde861d6485c88887d2e15eb54c89afd6b649f292bf4c9e5a",
+      "mode": "0o644",
+      "bytes": 1041
+    },
+    {
+      "path": "chuyun_ws/src/leap_interfaces/package.xml",
+      "sha256": "d5c162e7b54a0d74f0df01ed4ea358a062b8d6e66eca7ec84d81f0443cf7fe09",
+      "mode": "0o644",
+      "bytes": 578
+    },
+    {
+      "path": "chuyun_ws/src/leap_interfaces/CMakeLists.txt",
+      "sha256": "ab6249fafb98de07760856b80d642755d533b40c520616777b42626fe9e8e60e",
+      "mode": "0o644",
+      "bytes": 330
+    },
+    {
+      "path": "chuyun_ws/src/leap_interfaces/srv/SetArmPose.srv",
+      "sha256": "85d1dfd922c03cfc8b067dc0e0043d0e3b2e87d83c6553e403ca1074b56b0a98",
+      "mode": "0o644",
+      "bytes": 113
+    },
+    {
+      "path": "chuyun_ws/src/leap_interfaces/srv/SetSpeedPid.srv",
+      "sha256": "a04c2d1fc68f26e465d9226fa7f4c114f6bb669f4d8dbe92fd3c4cf5fa97c36b",
+      "mode": "0o644",
+      "bytes": 83
+    },
+    {
+      "path": "chuyun_ws/src/leap_interfaces/srv/GetSpeedPid.srv",
+      "sha256": "78c417774a2d1c6079e5473402af41926a8c921f5e8c2cee962af4d0ad31a74b",
+      "mode": "0o644",
+      "bytes": 50
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_description/package.xml",
+      "sha256": "3e34d7b8013a3ea9f3584b413e26b3e81e6ba2843456866a1f98ebf637a496ef",
+      "mode": "0o644",
+      "bytes": 612
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_description/CMakeLists.txt",
+      "sha256": "e0ace9aec03f39ed348c82305d9dee453b4efb6840b4d20fec0ea7d5f801cd30",
+      "mode": "0o644",
+      "bytes": 978
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_description/urdf/xuegecar.urdf",
+      "sha256": "2b39063d73d44351ad1588bdc727f9eb7a635e2e2e9bf7b304e74d71f63ad441",
+      "mode": "0o644",
+      "bytes": 2927
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/README.md",
+      "sha256": "7e7acb753d79cb601bdc602d6c57fbb99c219a75f56a68c871fa275bf01ab4fc",
+      "mode": "0o644",
+      "bytes": 2758
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/3rd-party-licenses.txt",
+      "sha256": "36836fefa6689da5998266982604f9f59be120d64829ef74ffb780fb15b8f835",
+      "mode": "0o644",
+      "bytes": 109
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/.gitignore",
+      "sha256": "20531d1beac38c6441b83425987a86f7a914a149fd9b813294ad322365cde25a",
+      "mode": "0o644",
+      "bytes": 645
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/NOTICE",
+      "sha256": "ea0dea11f21644c7b45ae04a1a13a654515f3ac8c7646cf3ad74ad5e0cfd0819",
+      "mode": "0o644",
+      "bytes": 1015
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "0o644",
+      "bytes": 11357
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/CONTRIBUTING.md",
+      "sha256": "dba1110151f23072d65790e15571aa3dc98e47d50a004937f1d6a1d2acd28ef2",
+      "mode": "0o644",
+      "bytes": 4738
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/package.xml",
+      "sha256": "b09f80b3e76e34fff57ae1046bd17c5486790b6976d69dd43f0b13bc21443d67",
+      "mode": "0o644",
+      "bytes": 1072
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/README.md",
+      "sha256": "3b5a4b0efc20c04cb72e4954fec79cfb7f12100b68d529ebcd2933738be50dd8",
+      "mode": "0o644",
+      "bytes": 1382
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/CMakeLists.txt",
+      "sha256": "e93e6b05337b55b53fb1ea09ece62dab20ec20db51243a1b432b2b74dbecd29c",
+      "mode": "0o644",
+      "bytes": 7096
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/CHANGELOG.rst",
+      "sha256": "b173d34de7d6c910b63766ad466de84c433f0f343ff4680dcefbc0f93df4de3f",
+      "mode": "0o644",
+      "bytes": 3425
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/resource/rclcpp.xml",
+      "sha256": "4a2dc3d1e27776915b1727ae69474fb35e05d7ae364601d8c954ee2dec2be8d6",
+      "mode": "0o644",
+      "bytes": 1051
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/resource/StaticValues.xml",
+      "sha256": "b26c6ee4287897de87482b236be5999f1b11d304553119f0ed9480bd78bb507c",
+      "mode": "0o644",
+      "bytes": 732
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/src/main.cpp",
+      "sha256": "84f26aa856f15ffda228660697bdcbad65d828b9287623d4aa361b61c79d6e2e",
+      "mode": "0o644",
+      "bytes": 2939
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp",
+      "sha256": "bf26791ec2d215502e3b94e485edcd83eb2b875f705355257650306c7545553b",
+      "mode": "0o644",
+      "bytes": 13750
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/src/agent/utils/demangle.cpp",
+      "sha256": "ce5182c98c0512f7921fca9805ae613f395f1d035a431adff66d3a345a5355c3",
+      "mode": "0o644",
+      "bytes": 5931
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp",
+      "sha256": "780f061943fcbcbad221fa32269c81f926b5975fa7fcb1693d0e4d59f338ab3c",
+      "mode": "0o644",
+      "bytes": 6488
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp",
+      "sha256": "f155776956a99b8d2cb53904f262e59ef15378a7458208c1ef55fc95bc5e626b",
+      "mode": "0o644",
+      "bytes": 30303
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/cmake/SuperBuild.cmake",
+      "sha256": "b757b928cdf48ed64203fbfc2d951a5fc4e36ed810da1d7cf62110df03ec7e74",
+      "mode": "0o644",
+      "bytes": 2496
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/utils/__init__.py",
+      "sha256": "4de091c1478e90ff861862cca4d58f2e3a4c388c24e6826394fcb7f0774081d0",
+      "mode": "0o644",
+      "bytes": 7818
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/launch/micro_ros_agent_launch.py",
+      "sha256": "0aef6e4585b1678936677a9e0d44cabac1a16047f1929bc993dd5938f2071ade",
+      "mode": "0o644",
+      "bytes": 340
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp",
+      "sha256": "8e9e97a1bdb9b555a9f6ae23f481a0cbeeef60986bdb2d43bd91a174d18d6314",
+      "mode": "0o644",
+      "bytes": 1524
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/include/agent/utils/demangle.hpp",
+      "sha256": "2731d756cb218b5044322aa96643a0f97e72bf290eaa01ddc3397eec0c799cd9",
+      "mode": "0o644",
+      "bytes": 4183
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp",
+      "sha256": "7a80a3a9fbdf203bec91ffa005021e13d90632613d2c950495272386b0f84c48",
+      "mode": "0o644",
+      "bytes": 12062
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/include/agent/graph_manager/graph_typesupport.hpp",
+      "sha256": "c0124f1c46bd445152d123c86ca32986713f53b89168b3160c21a6c2fd2dfa57",
+      "mode": "0o644",
+      "bytes": 4035
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/bin/Xml_interface_gen.py",
+      "sha256": "b575e5b474a0c4c081af88449ca27c8df08f9b67e893e395a6562f9a1d602811",
+      "mode": "0o644",
+      "bytes": 862
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/micro_ros_agent/bin/Xml_read_default_profiles.py",
+      "sha256": "2b05e7110263899f014c484338e6547589dfd3803640d71ef12c6355aecc7aa5",
+      "mode": "0o644",
+      "bytes": 654
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/.github/workflows/ci.yml",
+      "sha256": "9567ee9865c90c73ec84c7feed7295cdceda8c09625c1af824f12c6a59a2acdb",
+      "mode": "0o644",
+      "bytes": 1044
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/.github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "1ba1edec3f186f2aa6b7a031e2185f11ce3794d6243f400200b2c53974c7af93",
+      "mode": "0o644",
+      "bytes": 718
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/.github/ISSUE_TEMPLATE/general-issue.md",
+      "sha256": "fa0e1cd4c6509fde514610e20ce624cdd0bfd068ed2db2bab080321bfac8fff4",
+      "mode": "0o644",
+      "bytes": 588
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/snap/snapcraft.yaml",
+      "sha256": "90aa93356f6875426cd41c2c21fe14202fa4bd479ac71a660ba666159c938e00",
+      "mode": "0o644",
+      "bytes": 5488
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/snap/local/micro-ros-agent-daemon",
+      "sha256": "8e5c154ce76ae7b9a468406385e14d3e7a225b252e5be7086d4b5015f146329e",
+      "mode": "0o644",
+      "bytes": 710
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/snap/local/fastdds_no_shared_memory.xml",
+      "sha256": "f37a1869f466f5ad512399e36ebabc12d9a9b31b715fe57db6800dabdce4a870",
+      "mode": "0o644",
+      "bytes": 717
+    },
+    {
+      "path": "chuyun_ws/src/micro-ROS-Agent/snap/hooks/configure",
+      "sha256": "7e7a81bb0dc2c7142ae11fd51e8081012372b105cd04781ecdd7aafe5328015f",
+      "mode": "0o644",
+      "bytes": 2395
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/package.xml",
+      "sha256": "ca2302e654ef2dde4c03b425adfacff0e95a708c4d4f759f7b7918263686c53e",
+      "mode": "0o644",
+      "bytes": 1402
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/CMakeLists.txt",
+      "sha256": "68193f20a7e8e42ea4a43746b0b805d7f9938be7ed0965e3151173c94a3e455b",
+      "mode": "0o644",
+      "bytes": 1847
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/src/slam_gmapping.cpp",
+      "sha256": "925370791e8a829103d71402d787443a2f0e9f7aa8a845b574edc2acebff5cd5",
+      "mode": "0o644",
+      "bytes": 19671
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/params/slam_gmapping.yaml",
+      "sha256": "1f60202f79b9eb0ecbd7935d2106fb5a79be12201803da47dc3caa8ca09c082f",
+      "mode": "0o644",
+      "bytes": 1065
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/launch/slam_gmapping.launch.py",
+      "sha256": "fa477bd33ce664eb9c9e58e4f20b835980be23d2d0301842e8d8daf6e6226a57",
+      "mode": "0o644",
+      "bytes": 548
+    },
+    {
+      "path": "chuyun_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h",
+      "sha256": "f90a869f87d3a226642903e442619a837bd937a7b76c60604abbaf60a170ef42",
+      "mode": "0o644",
+      "bytes": 4824
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/package.xml",
+      "sha256": "e4c95499a34eb372eff637a0d649b7b88375942b57a24fa38a60e11d3964afbe",
+      "mode": "0o644",
+      "bytes": 868
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/setup.py",
+      "sha256": "778864cc9e76dec1e8f1cfa8f95d867164ebc5ff2bca6f4dacd265199449298f",
+      "mode": "0o644",
+      "bytes": 958
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/setup.cfg",
+      "sha256": "b2d7c41333153a28c1f8828732e3cbfa26320896b17f6501d3eb16ca25732e7c",
+      "mode": "0o644",
+      "bytes": 109
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/resource/xuegecar_wifi_config",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": "0o644",
+      "bytes": 1
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/launch/wifi_config_applier.launch.py",
+      "sha256": "90a2a2c4c5566bf978d4ab85b2577a780b92914d3700d5bec031257a27fbb31e",
+      "mode": "0o644",
+      "bytes": 803
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/xuegecar_wifi_config/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": "0o644",
+      "bytes": 1
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/xuegecar_wifi_config/wifi_config_applier.py",
+      "sha256": "2e0cd97d296a768e66f7a94f58b3aaa6fb3cff286558d89e4968cea3cca33e4c",
+      "mode": "0o644",
+      "bytes": 9121
+    },
+    {
+      "path": "chuyun_ws/src/xuegecar_wifi_config/xuegecar_wifi_config/microros_uart_starter.py",
+      "sha256": "a23d3b44c4d1480dfcfe11e77e8cf751017ac1762271cc6dbe761e2649475246",
+      "mode": "0o644",
+      "bytes": 2880
+    },
+    {
+      "path": "device_config/micro_ros/micro-ros-agent.service",
+      "sha256": "19eb1301f338991f3c5562e3a63e917a4a0b630e38e499bb21fb2632a802df94",
+      "mode": "0o644",
+      "bytes": 331
+    },
+    {
+      "path": "device_config/micro_ros/maturo-microros-agent-start",
+      "sha256": "c50aed109da27866e6dd47f371440a924b9c5d7c74da082a7b9910b0345a1376",
+      "mode": "0o755",
+      "bytes": 850
+    },
+    {
+      "path": "device_config/micro_ros/maturo-microros-uart-starter.py",
+      "sha256": "f9692ab7ba085b5389aadd8e1026301777fd41b89963f45a64c2539dc6403e88",
+      "mode": "0o755",
+      "bytes": 2781
+    },
+    {
+      "path": "device_config/wifi-config-applier/wifi-config-applier.service",
+      "sha256": "d646344f4e1808a493072ba0531b123d5ffe1020e2b88a01c137d4c30f98e74b",
+      "mode": "0o644",
+      "bytes": 477
+    },
+    {
+      "path": "device_config/wifi-config-applier/90-manual-host-wifi.conf",
+      "sha256": "c6d7aec22deb2de4403efd7336c64d5b69ab785a5245fb464bab87f03d9b87d8",
+      "mode": "0o644",
+      "bytes": 423
+    },
+    {
+      "path": "device_config/bringup/xuegecar-bringup.service",
+      "sha256": "f72cdad1454c0947d2d68388a6acee63b4f9fa72f71e89a127a7b39c765eb2df",
+      "mode": "0o644",
+      "bytes": 676
+    },
+    {
+      "path": "device_config/web/ros2-web-topic-throttle.service",
+      "sha256": "df999e536591ee60ca85c987efa760b06dffb5eb889d13d8fe432147c010de2c",
+      "mode": "0o644",
+      "bytes": 290
+    },
+    {
+      "path": "device_config/mediamtx/mediamtx.service",
+      "sha256": "763d8d7f609369d52c577ccd31cfd35ffdde410b6ee8d9f157bacb97b05f11b8",
+      "mode": "0o644",
+      "bytes": 288
+    }
+  ]
+}

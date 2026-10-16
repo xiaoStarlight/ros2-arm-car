@@ -1,0 +1,20 @@
+[Unit]
+Description=Xuegecar ROS 2 base bringup
+#Requires=micro-ros-agent.service micro-ros-time-resync.service wifi-config-applier.service
+#After=network-online.target micro-ros-agent.service micro-ros-time-resync.service wifi-config-applier.service
+#Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/chuyun_ws
+Environment=HOME=/root
+Environment=ROS_DOMAIN_ID=0
+ExecStart=/bin/bash -lc 'source /opt/ros/humble/setup.bash && source /root/chuyun_ws/install/setup.bash && exec ros2 launch xuegecar_bringup xuegecar_bringup.launch.py'
+Restart=on-failure
+RestartSec=3
+KillMode=control-group
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target
