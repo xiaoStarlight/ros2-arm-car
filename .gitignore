@@ -24,6 +24,7 @@ id_ed25519*
 
 # Firmware binaries, recording data, and historical archive outputs
 *.bin
+!/espcar.bin
 *.elf
 *.map
 *.a

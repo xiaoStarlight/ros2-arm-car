@@ -4,3 +4,4 @@
 *.jpeg binary
 *.pdf binary
 *.stl binary
+*.bin binary

@@ -9,6 +9,7 @@
 | `leap_ros_four_mcu_driver/` | 上游 `https://github.com/czu963889306-dev/leap_ros_pro_mcu_driver.git`，本地参考基准 `d2690b35fc0dff95fa65f48dd2820bc2d29cc4c8`，包含本地适配，具体见 `FIRMWARE_SOURCE.json` |
 | `device_config/` | 用户设备正在使用的服务与启动器快照；示例配置有单独标注，部署需按设备核对 |
 | `docs/images/` | 用户为本项目提供的机械臂、小车和相机画面 |
+| `espcar.bin` | 用户提供并确认当前小车 ESP 控制板正在使用的固件；文件内工程标识 `leap_ros_four`、版本 `v1.1-d2690b3-local`，校验值见 `espcar.bin.sha256` |
 
 原有 LICENSE、NOTICE、源码版权头、包描述及组件元数据均保留。具体组件遵循其对应许可；部分厂商包的 package.xml 许可声明仍是 TODO，不能据此推断已取得某个统一开源协议。本仓库用于二次开发项目的公开展示，来源归属与组件许可按原文件记录。
 
